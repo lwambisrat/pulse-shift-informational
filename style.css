@@ -34,9 +34,9 @@ body {
 }
 
 .testimonials-carousel {
-    display: flex;
+    display:inline-flex;
     justify-content: center;
-    gap: 32px;
+    gap: 29px;
     position: relative;
     z-index: 1;
     flex-wrap: wrap;
@@ -44,7 +44,8 @@ body {
 
 .testimonial-card {
     background: #fff;
-    border-radius: 28px;
+   border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
     width: 340px;
     min-height: 320px;
@@ -86,7 +87,7 @@ body {
 }
 
 .card-body {
-    font-size: 14px;
+    font-size: 20px;
     color: #222;
     margin-bottom: 18px;
     min-height: 54px;
@@ -96,7 +97,7 @@ body {
 .card-footer {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 4px;
     gap: 14px;
 }
 
@@ -106,11 +107,12 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #eee;
+   
 }
 
 .profile-name {
     font-weight: 500;
-    font-size:16px;
+    font-size:18px;
 }
 
 .profile-role {
@@ -120,9 +122,11 @@ body {
 
 .card-underline {
     position: absolute;
-    left: 30px;
+    /* left: 39px; */
+    margin-left: 20px;
     bottom: 14px;
-    width: 70px;
+    margin-top: 35px;
+    width: 90px;
     height: 8px;
     background: #13bc13;
     border-radius: 4px;
