@@ -46,8 +46,8 @@ h1 {
 
 .search-bar input {
   width: 45%;
-  padding: 7px 15px;
-  border-radius: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
