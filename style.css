@@ -1,3 +1,22 @@
+@font-face {
+    font-family: nunito;
+    src: url(fonts/static/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: nunito-reg;
+    src: url(fonts/static/Nunito-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: nunito-reg;
+    background: #fff;
+    color: #222;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 .testimonials-section {
     position: relative;
     padding: 30px 0 80px 0;
@@ -54,9 +73,10 @@
 
 .card-rating {
     color: #13bc13;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 600;
 }
+
 
 .card-stars {
     color: orange;
@@ -66,7 +86,7 @@
 }
 
 .card-body {
-    font-size: 1.1rem;
+    font-size: 14px;
     color: #222;
     margin-bottom: 18px;
     min-height: 54px;
@@ -90,11 +110,11 @@
 
 .profile-name {
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size:16px;
 }
 
 .profile-role {
-    font-size: 0.95rem;
+    font-size: 15px;
     color: #888;
 }
 
@@ -131,11 +151,10 @@
     opacity: 0.5;
     transition: opacity 0.3s;
 }
-
 .dot.active {
-    background: #ffb700;
-    opacity: 1;
-}
+  background: #ffb700;
+  opacity: 1;}
+
 
 
 
@@ -166,7 +185,7 @@
     }
 
     .main-title {
-        font-size: 1.18rem;
+        font-size:48px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
@@ -201,4 +220,5 @@
     
     
     
-
+ 
+ 

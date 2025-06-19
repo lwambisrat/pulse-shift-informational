@@ -1,4 +1,5 @@
 
+
 const cards = document.querySelectorAll('.testimonial-card');
 const dots = document.querySelectorAll('.dot');
 
@@ -18,6 +19,3 @@ dots.forEach((dot, idx) => {
 cards.forEach((card, idx) => {
     card.addEventListener('click', () => setActiveCard(idx));
 });
-
-    
-    
