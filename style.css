@@ -34,7 +34,7 @@ body {
 
 .links-categories a,.links-useful a,.links-news a {
   text-decoration: none;
-  color: black;
+  color:white;
   font-size: 15px;
 }
 
@@ -69,9 +69,11 @@ body {
 }
 
 .footer-contact span {
-  color: #40983B;
+  color:white;
 }
-
+.footer-container hr{
+  font-size: 20px;
+}
 footer {
   background: #fff;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -110,9 +112,11 @@ font-style: italic;
   margin-top: 25px;
   width: 25%;
   height: 5%;
-  color: #40983B;
+  color: white;
 }
-
+.footer{
+  background-color: #40983B;
+}
 .footer-links {
   display: flex;
   gap: 180px;
@@ -127,7 +131,8 @@ font-style: italic;
 .footer-links h4 {
   font-size: 20px;
   margin-bottom: 12px;
-  color: #26b42b;
+  font-weight: bolder;
+    color:white;
 }
 
 .footer-links ul {
@@ -166,7 +171,7 @@ font-style: italic;
 .footer-contact h5 {
   margin: 15px 0 3px 0;
   font-size: 15px;
-  color: #26b42b;
+  color: white;
 }
 
 .footer-contact p {
@@ -175,8 +180,7 @@ font-style: italic;
 }
 
 .footer-bottom {
-  background: #40983B;
-  ;
+  background: #40983B;;
   color: #fff;
   margin-top: -0.5%;
   text-align: center;
@@ -185,6 +189,7 @@ font-style: italic;
   justify-content: center;
   gap: 10%;
   font-size: 15px;
+  width: 100%;
 }
 
 .footer-bottom a {
@@ -192,34 +197,12 @@ font-style: italic;
   margin: 0 10px;
   text-decoration: none;
 }
-
-@media (max-width: 1280px) {
-  #top-images .images {
-    gap: 40px;
-  }
-
-  .footer-links {
-    margin-left: 2%;
-    gap: 5%;
-  }
-
-  .footer-side-image.left {
-    width: 80px;
-    margin-top: 2%;
-  }
-
-  .footer-side-image.right {
-    width: 80px;
-    margin-top: 2%;
-  }
-  .newsletter-form input[type="email"] {
-  padding: 6px 8px;
-  border: 1px solid #ccc;
-  border-radius: 2px 0 0 2px;
-  outline: none;
-  flex: 1;
+.footer-container{
+  background-color: #40983B;
+  margin-bottom: solid 5px orange;
+  color: white;
 }
-}
+
 
 @media (max-width: 1024px) {
   #top-images .images, .footer-main, .footer-links {
@@ -317,6 +300,25 @@ font-style: italic;
   .footer-logo img {
     width: 60px;
   }
+  .newsletter-form input[type="email"] {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  flex: 1;
+}
+}
+
+@media (max-width: 1280px) {
+  #top-images .images {
+    gap: 40px;
+  }
+
+  .footer-links {
+    /* margin-left: 2%; */
+    gap: 5%;
+  }
+
   .newsletter-form input[type="email"] {
   padding: 6px 8px;
   border: 1px solid #ccc;
