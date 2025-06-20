@@ -9,13 +9,9 @@
 }
 
 body {
-    margin: 0;
+   
     font-family: nunito-reg;
-    background: #fff;
-    color: #222;
-    width: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
+   
 }
 .testimonials-section {
     position: relative;
@@ -24,10 +20,27 @@ body {
     background: #fff;
     overflow-x: hidden;
 }
+.decor-img{
+    width: 20px;
+    height: 100px;
+    left: 12%;
+}
+.leaf{
+    margin-left: 30%;
 
+}
+.rating{
+    color: #13bc13;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -20%;
+    margin-left: 80%;
+
+
+}
 .main-title {
     font-size: 3.2rem;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     margin-top: 20px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -47,10 +60,10 @@ body {
    border-bottom-left-radius: 70px;
     border-top-right-radius: 70px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
-    width: 340px;
+    width: 300px;
     min-height: 320px;
     text-align: left;
-    padding: 36px 28px 36px 28px;
+    padding: 34px 26px 30px 26px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -81,7 +94,7 @@ body {
 
 .card-stars {
     color: orange;
-    font-size: 1.3rem;
+    font-size: 20px;
     letter-spacing: 4px;
     margin-left: 16px;
 }
