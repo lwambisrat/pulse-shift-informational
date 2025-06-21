@@ -5,6 +5,7 @@
 <head>
    <meta charset="UTF-8">
    <title>Greens Mtaani</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <link rel="icon" href="images/GM-Logo.png" type="image/x-icon">
    <script src="https://kit.fontawesome.com/1df1736bb2.js" crossorigin="anonymous"></script>
@@ -13,25 +14,24 @@
 
 
 <body>
-   <header>
-       <div class="logo">
-           <img src="images/GM-Logo.png" alt="Greens Mtaani Logo">
-       </div>
-       <button class="nav-toggle" aria-label="Open navigation">
-           <span class="bar"></span>
-           <span class="bar"></span>
-           <span class="bar"></span>
-       </button>
-       <nav>
-           <a href="#home">Home</a>
-           <a href="#about-us">About Us</a>
-           <a href="#vendor">Vendor</a>
-           <a href="#customer">Customer</a>
-           <a href="#testimonials">Testimonials</a>
-           <a href="#faqs">FAQs</a>
-           <a href="#contact">Contact</a>
-       </nav>
-   </header>
+  <header>
+    <div class="logo">
+      <img src="images/GM-Logo.png" alt="Greens Mtaani Logo">
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#vendor">Vendor</a>
+      <a href="#customer">Customer</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  
+
    <main>
        <section class="hero" id="home">
            <div class="grouped-ellipse">
@@ -39,7 +39,7 @@
                <div class="white-ellipse"></div>
            </div>
            <div class="hero-content">
-               <h1>Welcome to<br>Greens Mtaani</h1>
+               <h1>Welcome to<br> <span id="greens">Greens</span> <span id="mtaani">Mtaani</span></h1>
                <p>Easily order fresh produce from local Mama Mbogas with our app.</p>
                <button>Order Now</button>
            </div>
@@ -79,7 +79,7 @@
 
        <section class="quotes">
            <img src="images/grape.jpg" alt="" class="grape">
-           <p> <b> "To eat is a necessity, but to eat intelligently is an art, Join us for a <br> good nutrition
+           <p> <b> "To eat is a necessity, but to eat intelligently is an art. Join us for a good nutrition
                    planning platform"</b></p>
            <img src="images/salad.jpeg" alt="" class="salad">
        </section>
@@ -155,9 +155,9 @@
            </section>
        </section>
    </main>
+<script src="index.js"></script>
 
 </body>
 
 
 </html>
-
