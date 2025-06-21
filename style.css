@@ -3,11 +3,11 @@
     src: url(fonts/static/Nunito-Bold.ttf);
 }
 
-
 @font-face {
     font-family: nunito-reg;
     src: url(fonts/static/Nunito-Medium.ttf);
 }
+
 
 
 body {
@@ -62,12 +62,12 @@ nav a:hover {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: #fd9026; 
+    color: #fd9026;
     background: #fff;
     border: none;
     border-radius: 50%;
     padding: 10px;
-    transition: 
+    transition:
         box-shadow 0.2s,
         background 0.2s,
         color 0.2s,
@@ -549,7 +549,7 @@ nav a:hover {
     }
 
     .hero-content p {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .hero-content button {
@@ -578,11 +578,11 @@ nav a:hover {
         height: 320px;
         min-width: 250px;
         max-width: 340px;
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .quotes p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .services-section h2 {
@@ -598,6 +598,10 @@ nav a:hover {
         width: 400px;
         max-width: 300px;
         height: 230px;
+    }
+
+    .flip-card-inner span{
+        font-size: 20px !important;
     }
 
     .mockups {
@@ -631,7 +635,7 @@ nav a:hover {
 }
 
 @media (max-width: 1024px) {
-    
+
     .hero {
         padding: 30px 4vw 45px 4vw;
         gap: 24px;
@@ -646,7 +650,7 @@ nav a:hover {
     }
 
     .hero-content p {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .hero-content button {
@@ -665,20 +669,20 @@ nav a:hover {
     }
 
     .offer-cards {
-        display: flex; 
+        display: flex;
         justify-content: center;
-        gap: 50px; 
+        gap: 50px;
         flex-wrap: wrap;
         margin-top: 5%;
     }
 
     .offer-card {
         width: 230px;
-        height: 290px; 
+        height: 290px;
         min-width: 220px;
         max-width: 280px;
-        font-size: 22px; 
-        padding: 20px 16px 14px 16px; 
+        font-size: 20px;
+        padding: 20px 16px 14px 16px;
     }
 
     .offer-img {
@@ -689,15 +693,16 @@ nav a:hover {
     }
 
     .offer-img img {
-        width: 150px; 
+        width: 150px;
         height: 160px;
     }
 
     .underline {
-        width: 100px; 
+        width: 100px;
     }
+
     .quotes p {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .services-section h2 {
@@ -706,6 +711,7 @@ nav a:hover {
     }
 
     .services-cards {
+        font-size: 18px !important;
         gap: 24px;
     }
 
@@ -744,6 +750,7 @@ nav a:hover {
         height: 140px;
         border-width: 5px;
     }
+
 }
 
 
@@ -752,21 +759,22 @@ nav a:hover {
         display: block;
         margin-right: 8px;
         padding: 5px;
-        
-        
+
+
     }
+
     nav {
         display: none;
         flex-direction: column;
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 2.5vw; 
-        width: 100vw; 
+        left: 2.5vw;
+        width: 100vw;
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     nav.active {
@@ -778,11 +786,13 @@ nav a:hover {
         font-size: 16px;
         padding: 0px 0 10px 20px;
         margin-left: 5%;
-        width: 100%; 
+        width: 100%;
     }
+
     nav a:hover {
         color: #fd9026;
     }
+
     header {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -821,6 +831,10 @@ nav a:hover {
         width: 400px;
         max-width: 400px;
     }
+
+    .flip-card-back-inner {
+        font-size: 20px !important;
+    }
 }
 
 @media (max-width: 900px) {
@@ -836,12 +850,12 @@ nav a:hover {
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 2.5vw; 
-        width: 100vw; 
+        left: 2.5vw;
+        width: 100vw;
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     nav.active {
@@ -853,7 +867,7 @@ nav a:hover {
         font-size: 16px;
         padding: 0px 0 15px 20px;
         margin-left: 5%;
-        width: 100%; 
+        width: 100%;
     }
 
 
@@ -957,12 +971,12 @@ nav a:hover {
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 0px; 
-        width: 100vw; 
+        left: 0px;
+        width: 100vw;
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     nav.active {
@@ -974,7 +988,7 @@ nav a:hover {
         font-size: 16px;
         padding: 0px 0 10px 20px;
         margin-left: 10%;
-        width: 100%; 
+        width: 100%;
     }
 
     header {
@@ -993,24 +1007,27 @@ nav a:hover {
         display: block;
         margin-right: 10px;
     }
-    .grouped-ellipse{
+
+    .grouped-ellipse {
         width: 5px;
     }
-    .white-ellipse{
+
+    .white-ellipse {
         width: 15px;
     }
+
     nav {
         display: none;
         flex-direction: column;
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 0px; 
-        width: 100vw; 
+        left: 0px;
+        width: 100vw;
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     nav.active {
@@ -1022,12 +1039,14 @@ nav a:hover {
         font-size: 16px;
         padding: 0px 0 10px 20px;
         margin-left: 5%;
-        width: 100%; 
+        width: 100%;
     }
+
     nav a:hover {
         border-bottom: 2px solid #fd9026;
         color: #fd9026;
     }
+
     header {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1057,7 +1076,8 @@ nav a:hover {
     .services-section h2 {
         font-size: 36px;
     }
-    .offer-img img{
+
+    .offer-img img {
         width: 100px;
         height: 100px;
     }
@@ -1123,12 +1143,12 @@ nav a:hover {
         background: #ffffff;
         position: absolute;
         top: 70px;
-        left: 2.5vw; 
-        width: 100vw; 
+        left: 2.5vw;
+        width: 100vw;
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     nav.active {
@@ -1140,8 +1160,9 @@ nav a:hover {
         font-size: 16px;
         padding: 0px 0 10px 20px;
         margin-left: 5%;
-        width: 100%; 
+        width: 100%;
     }
+
     nav a:hover {
         color: #fd9026;
     }
@@ -1183,30 +1204,32 @@ nav a:hover {
     }
 
     .hero-content button {
-        font-size: 12px; 
+        font-size: 12px;
         padding: 8px 25px;
-        white-space: nowrap; 
+        white-space: nowrap;
         margin-top: -6px;
         display: inline-block;
     }
-    .quotes p{
+
+    .quotes p {
         font-size: 16px;
-        
+
     }
 
     .offer h2,
     .services-section h2 {
-         font-size: 19px;
+        font-size: 19px;
         margin-bottom: 64px;
     }
-    .offer-img img{
+
+    .offer-img img {
         width: 100px;
         height: 100px;
     }
 
-.services-section{
-    margin-top: -80%;
-}
+    .services-section {
+        margin-top: -80%;
+    }
 
     .offer-card,
     .service-card {
@@ -1223,7 +1246,8 @@ nav a:hover {
         font-size: 16px;
         padding: 3px 8px;
     }
-    .mockups{
+
+    .mockups {
         display: flex;
         flex-direction: row;
     }
@@ -1233,10 +1257,12 @@ nav a:hover {
         margin: 8px 0 12px 0;
         display: flex;
     }
+
     .phones-and-ring {
         width: 150px;
         height: 190px;
     }
+
     .orange-ring {
         width: 90px;
         height: 35px;
@@ -1244,8 +1270,951 @@ nav a:hover {
         margin-top: -49%;
         margin-left: 1%;
     }
+
     .phone {
         width: 54px;
         height: 90px;
+    }
+}
+
+/* Why Choose Us */
+
+.content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+}
+
+
+.section {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.section h2 {
+    text-align: center;
+    color: #15b32a;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: nunito;
+}
+
+
+.content-block {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.content-block .image-container {
+    width: 50%;
+    height: 500px;
+    margin: 1% auto;
+}
+
+
+.content-block .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+
+.content-block .text-content {
+    text-align: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.content-block .text-content h3 {
+    font-family: nunito;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #F68F21;
+    margin-bottom: 0.3em;
+}
+
+
+.content-block .text-content p {
+    font-family: nunito-reg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 0.6em;
+    width: 100%;
+}
+
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+
+.feature-list li {
+    color: #222;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: nunito-reg;
+    line-height: 2em;
+}
+
+
+.feature-list li svg {
+    flex-shrink: 0;
+    margin-right: 12px;
+    width: 37px;
+    height: 38px;
+}
+
+.customer-title,
+.vendor-title {
+    font-size: 36px;
+    line-height: 2em;
+}
+
+.intro-text,
+.vendor-description {
+    font-size: 32px;
+    line-height: 1.6;
+    font-family: nunito-reg;
+    width: 70% !important;
+}
+
+.btn-vendor,
+.btn-download {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 16px;
+    transition: background 0.18s, color 0.18s, border 0.18s;
+}
+
+.btn-vendor svg,
+.btn-download svg {
+    width: 25px;
+    height: 25px;
+}
+
+
+.btn-vendor:hover,
+.btn-download:hover {
+    background-color: #e68a00;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.how-it-works {
+    background: #fff;
+    padding: 40px 16px;
+    text-align: center;
+    font-family: nunito;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+
+.how-it-works-title {
+    color: #F68F21;
+    font-size: 48px;
+    font-family: nunito;
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+
+
+.how-it-works-steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.how-it-works-step {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 220px;
+    min-width: 180px;
+}
+
+
+.how-it-works-number {
+    background: #F68F21;
+    color: #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 4px solid #F68F21;
+    box-shadow: 0 2px 8px rgba(255, 140, 0, 0.1);
+}
+
+
+.how-it-works-description {
+    color: #222;
+    font-size: 30px;
+    margin: 10px;
+    line-height: 1.4;
+    font-family: nunito-reg;
+    padding: 20px;
+}
+
+
+.steps-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.step-item {
+    background: #f7f7fa;
+    border-radius: 1.5rem;
+    padding: 2rem 1.5rem;
+    flex: 1 1 260px;
+    min-width: 220px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 10px rgba(80, 150, 80, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: box-shadow 0.18s, transform 0.18s;
+}
+
+
+.step-item:hover {
+    box-shadow: 0 6px 18px #ff980033;
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+.step-number {
+    font-size: 2.4rem;
+    font-weight: bold;
+    background: #ff9800;
+    color: #fff;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.step-item p {
+    margin: 0;
+    color: #555;
+    font-size: 1.12rem;
+    line-height: 1.5;
+    margin-top: 0.4em;
+    font-family: nunito, Arial, sans-serif;
+}
+
+.how-to-join {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: nunito;
+}
+
+.how-to-join h2 {
+    color: #fa9907;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 0.01em;
+}
+
+.join-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+    position: relative;
+}
+
+.join-step {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4em;
+    position: relative;
+    text-align: left;
+    z-index: 1;
+    margin: 10px;
+    background: transparent;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+.join-step:nth-child(1),
+.join-step:nth-child(3) {
+    margin-left: 6em;
+}
+
+.join-step:nth-child(1),
+.join-step:nth-child(2) {
+    margin-top: 4em;
+}
+
+.join-step:nth-child(3),
+.join-step:nth-child(4) {
+    margin-bottom: 4em;
+}
+
+.join-step .step-number {
+    background: #fa9907;
+    color: #111;
+    font-weight: 700;
+    font-size: 2em;
+    width: 56px;
+    height: 56px;
+    max-width: 30%;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px #fa990733;
+}
+
+.join-step .step-text {
+    font-size: 30px;
+    line-height: 45px;
+    width: 50%;
+    margin-left: 2em;
+    font-style: normal;
+    font-weight: 200 !important;
+    font-family: nunito-reg;
+    color: #000000;
+    flex-grow: 0;
+}
+
+.grid-divider {
+    position: absolute;
+    background: #fa9907;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.h-divider {
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 4px;
+    width: 90%;
+    margin: auto;
+}
+
+.v-divider {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+}
+
+@media (max-width: 1300px) {
+    .section h2 {
+        font-size: 38px;
+    }
+
+    .content-block .image-container,
+    .content-block .text-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-block .image-container {
+        height: 360px;
+    }
+
+    .content-block .text-content h3 {
+        font-size: 32px;
+    }
+
+    .content-block .text-content p {
+        font-size: 20px;
+    }
+
+    .feature-list li {
+        font-size: 20px;
+    }
+
+    .feature-list li svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .customer-title,
+    .vendor-title {
+        font-size: 28px;
+    }
+
+    .intro-text,
+    .vendor-description {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .btn-vendor,
+    .btn-download {
+        font-size: 18px;
+        padding: 8px 14px;
+    }
+
+    .btn-vendor svg,
+    .btn-download svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .how-it-works {
+        padding: 32px 8px;
+        width: 98%;
+        height: auto;
+    }
+
+    .how-it-works-title {
+        font-size: 38px;
+        margin-bottom: 48px;
+    }
+
+
+    .how-it-works-number {
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+    }
+
+    .steps-grid {
+        gap: 1.4rem;
+        font-size: 20px;
+    }
+
+    .step-item {
+        min-width: 180px;
+        padding: 1.4rem 1rem;
+        font-size: 18px;
+    }
+
+    .step-number {
+        font-size: 24px;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .step-item p {
+        font-size: 16px;
+    }
+
+    .how-to-join h2 {
+        font-size: 38px;
+    }
+
+    .join-step {
+        padding: 20px;
+        margin: 8px;
+        min-height: 80px;
+    }
+
+    .join-step .step-number {
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+    }
+
+    .join-step .step-text {
+        font-size: 28px;
+        line-height: 36px;
+        margin-left: 1em;
+    }
+
+    .h-divider {
+        height: 2px;
+    }
+
+    .v-divider {
+        width: 2px;
+    }
+
+    .join-step .step-text,
+    .how-it-works-description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .section h2 {
+        font-size: 38px;
+    }
+
+    .content-block .image-container,
+    .content-block .text-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-block .image-container {
+        height: 360px;
+    }
+
+    .content-block .text-content h3 {
+        font-size: 32px;
+    }
+
+    .content-block .text-content p {
+        font-size: 18px;
+    }
+
+    .feature-list li {
+        font-size: 18px;
+    }
+
+    .feature-list li svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .customer-title,
+    .vendor-title {
+        font-size: 28px;
+    }
+
+    .intro-text,
+    .vendor-description {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .btn-vendor,
+    .btn-download {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    .btn-vendor svg,
+    .btn-download svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .how-it-works {
+        padding: 32px 8px;
+        width: 98%;
+        height: auto;
+    }
+
+    .how-it-works-title {
+        font-size: 38px;
+        margin-bottom: 48px;
+    }
+
+
+    .how-it-works-number {
+        width: 44px;
+        height: 44px;
+        font-size: 28px;
+    }
+
+    .steps-grid {
+        gap: 1.4rem;
+        font-size: 20px;
+    }
+
+    .step-item {
+        min-width: 180px;
+        padding: 1.4rem 1rem;
+        font-size: 18px;
+    }
+
+    .step-number {
+        font-size: 28px;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .step-item p {
+        font-size: 16px;
+    }
+
+    .how-to-join h2 {
+        font-size: 38px;
+    }
+
+    .join-step {
+        padding: 20px;
+        margin: 8px;
+        min-height: 80px;
+    }
+
+    .join-step .step-number {
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+    }
+
+    .join-step .step-text {
+        font-size: 28px;
+        line-height: 36px;
+        margin-left: 1em;
+    }
+
+    .h-divider {
+        height: 2px;
+    }
+
+    .v-divider {
+        width: 2px;
+    }
+
+    .join-step .step-text,
+    .how-it-works-description {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .steps-grid {
+        gap: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+
+    .step-item {
+        min-width: 170px;
+        padding: 1.2rem 1rem;
+    }
+
+    .feature-list li svg {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .how-to-join h2 {
+        font-size: 1.5em;
+    }
+
+    .join-grid {
+        min-height: 240px;
+    }
+
+    .join-step {
+        min-height: 100px;
+        padding: 0 14px;
+    }
+
+    .join-step .step-number {
+        width: 44px;
+        height: 44px;
+        font-size: 1.25em;
+        margin-right: 14px;
+    }
+
+    .join-step .step-text,
+    .feature-list li,
+    .how-it-works-description {
+        font-size: 0.99em;
+        /* max-width: 230px; */
+    }
+
+
+    .how-it-works .how-it-works-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-left: 3em;
+    }
+
+
+}
+
+
+@media (max-width: 600px) {
+
+    .content-wrapper .section .content-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-block,
+    .text-content,
+    .image-container {
+        width: 100% !important;
+    }
+
+    .section h2 {
+        font-size: 1.4em;
+    }
+
+    .content-block .text-content {
+        text-align: center;
+        margin: auto;
+    }
+
+    .content-block .text-content h3 {
+        font-size: 1.25em;
+    }
+
+
+    .content-block .text-content p {
+        font-size: 1.05em;
+    }
+
+
+    .how-to-join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2vw;
+    }
+
+    .how-to-join h2 {
+        font-size: 1.12em;
+        margin-bottom: 18px;
+    }
+
+    .join-grid {
+        display: flex;
+        flex-direction: column;
+        min-height: unset;
+        gap: 0;
+        position: relative;
+    }
+
+
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-left: unset;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(2) {
+        margin-top: unset;
+    }
+
+    .join-step:nth-child(3),
+    .join-step:nth-child(4) {
+        margin-bottom: unset;
+    }
+
+    .join-step .step-text {
+        font-size: 0.94em;
+        max-width: 90vw;
+    }
+
+
+
+    .h-divider,
+    .v-divider {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 430px) {
+    .content-wrapper .section .content-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .section h2,
+    .how-it-works-title {
+        font-size: 36px;
+    }
+
+
+    .content-block,
+    .image-container {
+        width: 100% !important;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .feature-list {
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .intro-text,
+    .vendor-description {
+        width: 70%;
+        margin: auto;
+    }
+
+    .vendor-title,
+    .customer-title {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .how-to-join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0 2vw;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-left: unset;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(2) {
+        margin-top: unset;
+    }
+
+    .join-step:nth-child(3),
+    .join-step:nth-child(4) {
+        margin-bottom: unset;
+    }
+
+    .how-to-join h2 {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+
+    .join-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .join-step {
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: left;
+    }
+
+    .join-step .step-number {
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 3.5rem;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 1.5rem;
+    }
+
+    .join-step .step-text,
+    .how-it-works-description,
+    .feature-list li {
+        font-size: 0.94em;
+        max-width: 90vw;
+    }
+
+    .btn-download,
+    .btn-vendor {
+        font-size: 0.85em !important;
+        display: flex;
+        margin: 5% auto;
+        width: 150px;
+    }
+
+    .feature-list svg {
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .h-divider,
+    .v-divider {
+        display: none;
+    }
+
+    .step-item {
+        padding: 0.7rem 0.4rem;
+        font-size: 0.94em;
+    }
+
+    .step-number {
+        width: 1.7rem;
+        height: 1.7rem;
+        font-size: 1.05rem;
+    }
+
+    .intro-text,
+    .vendor-description {
+        font-size: 0.95em !important;
     }
 }
