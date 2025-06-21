@@ -23,35 +23,33 @@
 
 
 .section {
-    padding: 20px;
     margin: 0 auto;
     width: 100%;
 }
 
 
+
 .section h2 {
     text-align: center;
     color: #15b32a;
-    font-size: 2.5em;
+    font-size: 48px;
     margin-bottom: 30px;
     font-weight: bold;
+    font-family: nunito;
 }
 
 
 .content-block {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    gap: 5%;
     justify-content: center;
 }
 
 .content-block .image-container {
     width: 50%;
-    height: 450px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
+    height: 500px;
+    margin: 1% auto;
 }
 
 
@@ -66,8 +64,7 @@
 .content-block .text-content {
     text-align: left;
     width: 50%;
-
-
+    padding-left: 10px;
 }
 
 
@@ -75,51 +72,64 @@
     font-family: nunito;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5em;
-    line-height: 1.1;
+    font-size: 40px;
+    line-height: 1.5;
     color: #F68F21;
     margin-bottom: 0.3em;
 }
 
 
 .content-block .text-content p {
-    font-family: nunito;
+    font-family: nunito-reg;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 32px;
     color: #000000;
     margin-bottom: 0.6em;
+    width: 100%;
 }
 
 
 .feature-list {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: left;
     width: 100%;
 }
 
 
 .feature-list li {
-    margin-bottom: 12px;
     color: #222;
-    font-size: 1.08em;
+    font-size: 30px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
-    font-family: nunito;
-    font-weight: 600;
+    font-family: nunito-reg;
+    line-height: 2em;
 }
 
 
 .feature-list li svg {
     flex-shrink: 0;
     margin-right: 12px;
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 38px;
 }
 
+.customer-title,
+.vendor-title {
+    font-size: 36px;
+    line-height: 2em;
+}
+
+.intro-text,
+.vendor-description {
+    font-size: 32px;
+    line-height: 1.6;
+    font-family: nunito-reg;
+    width: 70% !important;
+}
 
 .btn-vendor,
 .btn-download {
@@ -140,7 +150,6 @@
     transition: background 0.18s, color 0.18s, border 0.18s;
 }
 
-
 .btn-vendor svg,
 .btn-download svg {
     width: 25px;
@@ -160,12 +169,14 @@
     background: #fff;
     padding: 40px 16px;
     text-align: center;
+    font-family: nunito;
+    width: 90%;
 }
 
 
 .how-it-works-title {
     color: #F68F21;
-    font-size: 2.2rem;
+    font-size: 48px;
     font-family: nunito;
     margin-bottom: 90px;
     font-weight: bold;
@@ -209,9 +220,11 @@
 
 .how-it-works-description {
     color: #222;
-    font-size: 1.3rem;
-    margin: 0;
+    font-size: 36px;
+    margin: 10px;
     line-height: 1.4;
+    font-family: nunito-reg;
+    padding: 20px;
 }
 
 
@@ -261,7 +274,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -275,24 +287,24 @@
     font-family: nunito, Arial, sans-serif;
 }
 
-
 .how-to-join {
-    /* max-width: 1000px; */
-    margin: 40px auto 0 auto;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     font-family: nunito;
-    padding: 0 1vw;
 }
-
 
 .how-to-join h2 {
     color: #fa9907;
-    font-size: 2.4em;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 30px;
     letter-spacing: 0.01em;
 }
-
 
 .join-grid {
     display: grid;
@@ -300,23 +312,36 @@
     grid-template-rows: 1fr 1fr;
     gap: 0;
     position: relative;
-    min-height: 350px;
 }
-
 
 .join-step {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 40px;
+    padding: 4em;
     position: relative;
     text-align: left;
-    min-height: 160px;
     z-index: 1;
+    margin: 10px;
     background: transparent;
     transition: background 0.2s;
+    width: 100%;
 }
 
+.join-step:nth-child(1),
+.join-step:nth-child(3) {
+    margin-left: 6em;
+}
+
+.join-step:nth-child(1),
+.join-step:nth-child(2) {
+    margin-top: 4em;
+}
+
+.join-step:nth-child(3),
+.join-step:nth-child(4) {
+    margin-bottom: 4em;
+}
 
 .join-step .step-number {
     background: #fa9907;
@@ -325,41 +350,181 @@
     font-size: 2em;
     width: 56px;
     height: 56px;
+    max-width: 30%;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 22px;
+    /* margin-right: 22px; */
     box-shadow: 0 2px 6px #fa990733;
 }
 
-
 .join-step .step-text {
-    font-size: 1.1em;
-    color: #222;
-    line-height: 1.4;
+    font-size: 33px;
+    line-height: 45px;
+    width: 50%;
+    margin-left: 2em;
+    font-style: normal;
+    font-weight: 200 !important;
+    font-family: nunito-reg;
+    color: #000000;
+    flex-grow: 0;
 }
 
 .grid-divider {
     position: absolute;
     background: #fa9907;
     z-index: 0;
+    margin: 0 auto;
 }
-
 
 .h-divider {
     left: 0;
     right: 0;
     top: 50%;
     height: 4px;
+    width: 90%;
+    margin: auto;
 }
-
 
 .v-divider {
     top: 0;
     bottom: 0;
     left: 50%;
     width: 4px;
+    height: 100%;
+}
+
+@media (max-width: 1300px) {
+    .section h2 {
+        font-size: 38px;
+    }
+
+    .content-block .image-container,
+    .content-block .text-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-block .image-container {
+        height: 360px;
+    }
+
+    .content-block .text-content h3 {
+        font-size: 32px;
+    }
+
+    .content-block .text-content p {
+        font-size: 24px;
+    }
+
+    .feature-list li {
+        font-size: 22px;
+    }
+
+    .feature-list li svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .customer-title,
+    .vendor-title {
+        font-size: 28px;
+    }
+
+    .intro-text,
+    .vendor-description {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .btn-vendor,
+    .btn-download {
+        font-size: 18px;
+        padding: 8px 14px;
+    }
+
+    .btn-vendor svg,
+    .btn-download svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .how-it-works {
+        padding: 32px 8px;
+        width: 98%;
+    }
+
+    .how-it-works-title {
+        font-size: 38px;
+        margin-bottom: 48px;
+    }
+
+    .how-it-works-description {
+        font-size: 28px;
+    }
+
+    .how-it-works-number {
+        width: 44px;
+        height: 44px;
+        font-size: 28px;
+    }
+
+    .steps-grid {
+        gap: 1.4rem;
+        font-size: 20px;
+    }
+
+    .step-item {
+        min-width: 180px;
+        padding: 1.4rem 1rem;
+        font-size: 18px;
+    }
+
+    .step-number {
+        font-size: 28px;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .step-item p {
+        font-size: 16px;
+    }
+
+    .how-to-join h2 {
+        font-size: 38px;
+    }
+
+    .join-step {
+        padding: 20px;
+        margin: 8px;
+        min-height: 80px;
+    }
+
+    .join-step .step-number {
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+    }
+
+    .join-step .step-text {
+        font-size: 28px;
+        line-height: 36px;
+        margin-left: 1em;
+    }
+
+    .h-divider {
+        height: 2px;
+    }
+
+    .v-divider {
+        width: 2px;
+    }
+
+    .join-step .step-text,
+    .how-it-works-description {
+        font-size: 24px;
+    }
 }
 
 
@@ -375,22 +540,24 @@
         padding: 1.2rem 1rem;
     }
 
+    .feature-list li svg {
+        width: 20px;
+        height: 20px;
+    }
+
 
     .how-to-join h2 {
         font-size: 1.5em;
     }
 
-
     .join-grid {
         min-height: 240px;
     }
-
 
     .join-step {
         min-height: 100px;
         padding: 0 14px;
     }
-
 
     .join-step .step-number {
         width: 44px;
@@ -399,9 +566,11 @@
         margin-right: 14px;
     }
 
-
-    .join-step .step-text {
+    .join-step .step-text,
+    .feature-list li,
+    .how-it-works-description {
         font-size: 0.99em;
+        /* max-width: 230px; */
     }
 
 
@@ -411,12 +580,18 @@
         align-items: center;
     }
 
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-left: 3em;
+    }
+
 
 }
 
 
-@media (max-width: 600) {
-    .section {
+@media (max-width: 600px) {
+
+    .content-wrapper .section .content-block {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -427,13 +602,17 @@
     .content-block,
     .text-content,
     .image-container {
-        width: 100%;
+        width: 100% !important;
     }
 
     .section h2 {
         font-size: 1.4em;
     }
 
+    .content-block .text-content{
+        text-align: center;
+        margin: auto;
+    }
 
     .content-block .text-content h3 {
         font-size: 1.25em;
@@ -445,15 +624,73 @@
     }
 
 
-    .feature-list {
+    .how-to-join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2vw;
+    }
+
+    .how-to-join h2 {
+        font-size: 1.12em;
+        margin-bottom: 18px;
+    }
+
+    .join-grid {
+        display: flex;
+        flex-direction: column;
+        min-height: unset;
+        gap: 0;
+        position: relative;
+    }
+
+    .join-step {
+        min-height: unset;
+        padding: 12px 2vw;
+        margin-bottom: 10px;
+        text-align: left;
+        background: #fff5ec;
+        border-radius: 16px;
         font-size: 0.98em;
     }
 
+    .join-step .how-it-works-number {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
 
-    .feature-list li {
-        font-size: 0.98em;
-        gap: 8px;
     }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-left: unset;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(2) {
+        margin-top: unset;
+    }
+
+    .join-step:nth-child(3),
+    .join-step:nth-child(4) {
+        margin-bottom: unset;
+    }
+
+    .join-step .step-text {
+        font-size: 0.94em;
+        /* max-width: 90vw; */
+    }
+
+    .join-step {
+        text-align: center;
+    }
+
+    .h-divider,
+    .v-divider {
+        display: none;
+    }
+
 }
 
 
@@ -467,28 +704,113 @@
     }
 
 
-    .section.how-it-works h2 {
-        font-size: 1.09rem;
+    .section h2,
+    .how-it-works-title {
+        font-size: 36px;
     }
 
 
     .content-block,
-    .text-content,
     .image-container {
         width: 100% !important;
+        margin: auto;
+        justify-content: center;
     }
 
+    .feature-list {
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+    }
 
+   .intro-text, .vendor-description{
+        width: 70%;
+        margin: auto;
+    }
+
+    .vendor-title,
+    .customer-title {
+        font-size: 33px;
+    }
+
+    .how-to-join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0 2vw;
+    }
+
+    .join-step:nth-child(1),
+    .join-step:nth-child(3) {
+        margin-right: 0 !important;
+    }
+
+    .how-to-join h2 {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+
+    .join-grid {
+        display: flex;
+        flex-direction: column;
+        min-height: unset;
+        gap: 0;
+        position: relative;
+    }
+
+    .join-step {
+        min-height: unset;
+        padding: 12px 2vw;
+        margin-bottom: 10px;
+        text-align: left;
+        background: #fff5ec;
+        border-radius: 16px;
+        font-size: 0.98em;
+    }
+
+    .join-step .how-it-works-number {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .join-step .step-text,
+    .how-it-works-description,
+    .feature-list li {
+        font-size: 0.94em;
+        max-width: 90vw;
+    }
+
+    .btn-download,
+    .btn-vendor {
+        font-size: 0.85em !important;
+    }
+
+    .feature-list svg {
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .h-divider,
+    .v-divider {
+        display: none;
+    }
 
     .step-item {
         padding: 0.7rem 0.4rem;
         font-size: 0.94em;
     }
 
-
     .step-number {
         width: 1.7rem;
         height: 1.7rem;
         font-size: 1.05rem;
+    }
+
+    .intro-text,
+    .vendor-description {
+        font-size: 0.95em !important;
     }
 }
