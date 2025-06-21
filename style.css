@@ -189,168 +189,178 @@ body {
 
 
 
-
-@media (max-width: 1400px) {
-  .testimonials-carousel{
-    gap: 50px;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .testimonials-carousel {
+    gap: 35px;
+    padding: 0 35px 16px 35px;
   }
   .testimonial-card {
-  
-    max-width: 370px;
-    margin-top: -12px;
-    flex: 0 0 410px;
-  }
-  .card-body{
-    font-size: 16px;
-  }
-  .main-title{
-    margin-top: -12px;
-    font-size: 40px;
-  }
-  .profile-name{
-    font-size: 20px;
-  }
-  .card-stars{
-    font-size: 25px;
-  }
-  .card-rating{
-    font-size: 25px;
-  }
-  .rating{
-    font-size: 25px;
-    margin-right: 50%;
-  }
-  .profile-name{
-    font-size: 18px;
-  }
-  .profile-role{
-    font-size: 13px;
+    min-width: calc((100vw - 140px) / 3);
+    max-width: calc((100vw - 140px) / 3);
+    flex: 0 0 calc((100vw - 140px) / 3);
   }
 }
-
-@media (width: 853px) {
-  .testimonial-card{
-    max-width: 2030px;
-  }
-}
-@media (width: 1024px) {
-  .testimonials-carousel{
+@media (min-width: 1281px) {
+  .testimonials-carousel {
     gap: 40px;
-    max-width: 380%;
+    padding: 0 40px 16px 40px;
+    max-width: 100vw;
   }
   .testimonial-card {
-    border: none; 
-    max-width: 289px;
-    margin-top: -12px;
-    flex: 0 0 410px;
-   
-  }
-  .main-title{
-    font-size: 30px;
-  }
-  .card-body{
-    font-size: 17px;
-  }
-  .card-stars{
-    font-size: 20px;
-  }
-  .card-rating{
-    font-size: 20px;
-  }
-  .rating{
-    font-size: 20px;
-    margin-right:48%;
-  }
-  .profile-name{
-    font-size: 15px;
-  }
-  .profile-role{
-    font-size: 12px;
-  }
-  .card-underline{
-    width: 35%;
+    min-width: calc((100vw - 200px) / 4);
+    max-width: calc((100vw - 200px) / 4);
+    flex: 0 0 calc((100vw - 200px) / 4);
   }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .testimonials-carousel {
+    gap: 30px;
+    padding: 0 30px 16px 30px;
+  }
   .testimonial-card {
-    min-width: 94vw;
-    max-width: 98vw;
-    flex: 0 0 94vw;
-    padding: 18px 8vw 24px 8vw;
-    font-size: 1rem;
+    min-width: calc((100vw - 120px) / 3);
+    max-width: calc((100vw - 120px) / 3);
+    flex: 0 0 calc((100vw - 120px) / 3);
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .testimonials-section {
+    padding: 30px 0;
   }
   .main-title {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
   }
-  .card-body{
-    font-size: 15px;
-    padding-left: 12px;
+  .testimonials-carousel {
+    gap: 20px;
+    padding: 0 20px 16px 20px;
   }
-  .rating{
-    margin-right:39px;
-    font-size: 25px;
+  .testimonial-card {
+    min-width: calc((100vw - 60px) / 2);
+    max-width: calc((100vw - 60px) / 2);
+    flex: 0 0 calc((100vw - 60px) / 2);
+    border-radius: 40px;
+    padding: 25px 12px;
   }
-  .card-rating{
-    font-size: 25px;
+  .card-header {
+    gap: 12px;
   }
-  .card-stars{
- 
+  .card-rating, .card-stars {
+    font-size: 24px;
+  }
+  .card-stars {
+    margin-left: 15px;
+  }
+  .card-body {
+    font-size: 16px;
+    min-height: 110px;
+  }
+  .rating {
+    font-size: 24px;
+  }
+  .profile-img {
+    width: 60px;
+    height: 60px;
+  }
+  .profile-name {
+    font-size: 17px;
+  }
+  .profile-role {
+    font-size: 14px;
+  }
+  .card-underline {
+    width: 100px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    padding: 20px 0;
+  }
+  .main-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .testimonials-carousel {
+    gap: 10px;
+    padding: 0 10px 16px 10px;
+  }
+  .testimonial-card {
+    min-width: calc(100vw - 20px);
+    max-width: calc(100vw - 20px);
+    flex: 0 0 calc(100vw - 20px);
+    border-radius: 30px;
+    padding: 20px 10px;
+    margin-bottom: 16px;
+  }
+  .card-header {
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .card-rating, .card-stars {
     font-size: 20px;
   }
-  .profile-name{
-    font-size: 15px;
+  .card-stars {
+    margin-left: 10px;
+    letter-spacing: 3px;
   }
-  .profile-role{
-    font-size: 12px;
+  .card-body {
+    font-size: 14px;
+    min-height: 100px;
+    margin-bottom: 20px;
   }
-  .card-underline{
-    width: 22%;
-  }
-
-} 
-@media (width: 344px){
-  .rating{
+  .rating {
+    font-size: 20px;
     margin-right: 10%;
-    
+    margin-left: 10%;
   }
-  .card-body{
-    font-size: 15px;
-    margin-left: -18px;
+  .card-footer {
+    gap: 10px;
+    margin-top: 16px;
   }
+  .profile-img {
+    width: 50px;
+    height: 50px;
+  }
+  .profile-name {
+    font-size: 16px;
+  }
+  .profile-role {
+    font-size: 13px;
+  }
+  .card-underline {
+    width: 80px;
+    height: 8px;
+    margin-top: 16px;
+  }
+  .carousel-dots {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .dot {
+    width: 15px;
+    height: 15px;
+  }
+}
 
-}
-@media (width: 768px){
-  .testimonial-card{
-    max-width: 10vw;
-    width: 30%;
-  }
-  .card-body p{
-    width: 50%;
-  }
-  .rating{
-    margin-right: 50%;
-  }
-}
-@media (width: 360px){
-  .card-body{
-    margin-left: -10px;
-    font-size: 15px;
-  }
-  .card-stars{
-    font-size: 90%;
-  }
-  .card-rating{
-    font-size: 140%;
 
-  }
-  .rating{
-    font-size: 150%;
-    margin-right: 20%;
-  }
-} 
-@media (width: 820px){
-  .rating{
-    margin-right:41%;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
