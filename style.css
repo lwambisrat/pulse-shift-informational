@@ -72,11 +72,7 @@ nav a:hover {
         background 0.2s,
         color 0.2s,
         transform 0.18s;
-    box-shadow: 0 2px 8px #fd902625, 0 1.5px 8px #219a3120;
     outline: none;
-}
-.hamburger:focus {
-    outline: 2px solid #219a31;
 }
 
 .hero {
@@ -539,6 +535,218 @@ nav a:hover {
     transform: rotate(13deg);
 }
 
+@media (max-width: 1280px) {
+    .hero {
+        padding: 35px 5vw 50px 5vw;
+        gap: 28px;
+    }
+
+    .hero-content h1 {
+        font-size: 70px;
+        line-height: 90px;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content p {
+        font-size: 28px;
+    }
+
+    .hero-content button {
+        font-size: 28px;
+        padding: 10px 60px;
+    }
+
+    .hero-img img {
+        width: 38vw;
+        max-width: 650px;
+    }
+
+    .offer h2 {
+        font-size: 50px;
+        margin-bottom: 12%;
+    }
+
+    .offer-cards {
+        display: flex;
+        gap: 50px;
+        margin-top: 8%;
+    }
+
+    .offer-card {
+        width: 110px;
+        height: 320px;
+        min-width: 250px;
+        max-width: 340px;
+        font-size: 26px;
+    }
+
+    .quotes p {
+        font-size: 24px;
+    }
+
+    .services-section h2 {
+        font-size: 50px;
+        margin-bottom: 32px;
+    }
+
+    .services-cards {
+        gap: 28px;
+    }
+
+    .service-card {
+        width: 400px;
+        max-width: 300px;
+        height: 230px;
+    }
+
+    .mockups {
+        gap: 1.5vw;
+    }
+
+    .phones-section {
+        margin: 35px 0 50px 0;
+        min-height: 280px;
+    }
+
+    .phones-and-ring {
+        width: 280px;
+        height: 200px;
+    }
+
+    .phone {
+        width: 120px;
+        height: 220px;
+    }
+
+    #mock-ups {
+        width: 60%;
+    }
+
+    .orange-ring {
+        width: 260px;
+        height: 160px;
+        border-width: 6px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .hero {
+        padding: 30px 4vw 45px 4vw;
+        gap: 24px;
+        margin-bottom: 10%;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+        line-height: 80px;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content p {
+        font-size: 26px;
+    }
+
+    .hero-content button {
+        font-size: 26px;
+        padding: 10px 55px;
+    }
+
+    .hero-img img {
+        width: 36vw;
+        max-width: 600px;
+    }
+
+    .offer h2 {
+        font-size: 45px;
+        margin-bottom: 15%;
+    }
+
+    .offer-cards {
+        display: flex; 
+        justify-content: center;
+        gap: 50px; 
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+
+    .offer-card {
+        width: 230px;
+        height: 290px; 
+        min-width: 220px;
+        max-width: 280px;
+        font-size: 22px; 
+        padding: 20px 16px 14px 16px; 
+    }
+
+    .offer-img {
+        width: 80px;
+        height: 85px;
+        margin-bottom: 1.8em;
+        margin-top: -2.8em;
+    }
+
+    .offer-img img {
+        width: 150px; 
+        height: 160px;
+    }
+
+    .underline {
+        width: 100px; 
+    }
+    .quotes p {
+        font-size: 22px;
+    }
+
+    .services-section h2 {
+        font-size: 45px;
+        margin-bottom: 28px;
+    }
+
+    .services-cards {
+        gap: 24px;
+    }
+
+    .service-card {
+        width: 400px;
+        max-width: 400px;
+        height: 210px;
+    }
+
+    .mockups {
+        display: flex;
+        gap: 1vw;
+    }
+
+    .phones-section {
+        margin: 30px 0 45px 0;
+        min-height: 260px;
+    }
+
+    .phones-and-ring {
+        width: 280px;
+        height: 180px;
+    }
+
+    .phone {
+        width: 110px;
+        height: 200px;
+    }
+
+    #mock-ups {
+        width: 58%;
+    }
+
+    .orange-ring {
+        width: 230px;
+        height: 140px;
+        border-width: 5px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .hamburger {
         display: block;
@@ -571,7 +779,6 @@ nav a:hover {
         padding: 0px 0 10px 20px;
         margin-left: 5%;
         width: 100%; 
-        transition: color 0.2s, border-bottom 0.2s;
     }
     nav a:hover {
         color: #fd9026;
@@ -631,7 +838,6 @@ nav a:hover {
         top: 70px;
         left: 2.5vw; 
         width: 100vw; 
-        /* padding: 20px 0; */
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
         z-index: 1000;
@@ -648,7 +854,6 @@ nav a:hover {
         padding: 0px 0 15px 20px;
         margin-left: 5%;
         width: 100%; 
-        transition: color 0.2s, border-bottom 0.2s;
     }
 
 
@@ -752,7 +957,7 @@ nav a:hover {
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 2.5vw; 
+        left: 0px; 
         width: 100vw; 
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
@@ -768,9 +973,8 @@ nav a:hover {
         color: #222;
         font-size: 16px;
         padding: 0px 0 10px 20px;
-        margin-left: 5%;
+        margin-left: 10%;
         width: 100%; 
-        transition: color 0.2s, border-bottom 0.2s;
     }
 
     header {
@@ -801,7 +1005,7 @@ nav a:hover {
         background: #fff;
         position: absolute;
         top: 70px;
-        left: 2.5vw; 
+        left: 0px; 
         width: 100vw; 
         box-shadow: 0 4px 20px #0002;
         border-radius: 12px;
@@ -819,7 +1023,6 @@ nav a:hover {
         padding: 0px 0 10px 20px;
         margin-left: 5%;
         width: 100%; 
-        transition: color 0.2s, border-bottom 0.2s;
     }
     nav a:hover {
         border-bottom: 2px solid #fd9026;
@@ -917,7 +1120,7 @@ nav a:hover {
     nav {
         display: none;
         flex-direction: column;
-        background: #fff;
+        background: #ffffff;
         position: absolute;
         top: 70px;
         left: 2.5vw; 
@@ -938,10 +1141,8 @@ nav a:hover {
         padding: 0px 0 10px 20px;
         margin-left: 5%;
         width: 100%; 
-        transition: color 0.2s, border-bottom 0.2s;
     }
     nav a:hover {
-        border-bottom: 2px solid #fd9026;  
         color: #fd9026;
     }
 
