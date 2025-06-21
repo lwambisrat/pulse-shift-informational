@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.testimonial-card');
 const dots = document.querySelectorAll('.dot');
 const carousel = document.querySelector('.testimonials-carousel');
-const cardsPerPage = 2; 
+const cardsPerPage = 3; 
 function scrollToPage(pageIdx, smooth = true) {
   const firstCardIdx = pageIdx * cardsPerPage;
   const card = cards[firstCardIdx];
