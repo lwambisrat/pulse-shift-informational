@@ -1,237 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greens Mtaani</title>
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <title>Greens Mtaani</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="images/GM-Logo.png" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/1df1736bb2.js" crossorigin="anonymous"></script>
 </head>
 
 
+
 <body>
-    <main>
-        <section class="content-wrapper">
-            <div class="section why-choose-us" id="vendor">
-                <h2>Why Choose Us</h2>
-                <div class="content-block">
-                    <div class="image-container">
-                        <img src="images/mamamboga-removebg-preview (1).png" alt="Greens Mtaani App on Phone">
-                    </div>
-                    <div class="text-content">
-                        <h3 class="vendor-title">For Vendors</h3>
-                        <p class="vendor-description">Grow Your Business with Ease</p>
-                        <ul class="feature-list">
-                            <li>
-                                <svg width="59" height="63" viewBox="0 0 59 63" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M26.2222 28V0H6.55556C2.95 0 0 3.15 0 7V28H26.2222ZM32.7778 28H59V7C59 3.15 56.05 0 52.4444 0H32.7778V28ZM26.2222 35H0V56C0 59.85 2.95 63 6.55556 63H26.2222V35ZM32.7778 35V63H52.4444C56.05 63 59 59.85 59 56V35H32.7778Z"
-                                        fill="black" />
-                                </svg>
-                                Community Support
-                            </li>
-                            <li>
-                                <svg width="60" height="64" viewBox="0 0 60 64" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9 64C7.35 64 5.938 63.3739 4.764 62.1216C3.59 60.8693 3.002 59.3621 3 57.6V21.52C2.1 20.9333 1.375 20.1739 0.825 19.2416C0.275 18.3093 0 17.2288 0 16V6.4C0 4.64 0.588 3.13387 1.764 1.8816C2.94 0.629333 4.352 0.00213333 6 0H54C55.65 0 57.063 0.6272 58.239 1.8816C59.415 3.136 60.002 4.64213 60 6.4V16C60 17.2267 59.725 18.3072 59.175 19.2416C58.625 20.176 57.9 20.9344 57 21.5168V57.6C57 59.36 56.413 60.8672 55.239 62.1216C54.065 63.376 52.652 64.0021 51 64H9ZM6 16H54V6.4H6V16ZM24 38.4H36C36.85 38.4 37.563 38.0928 38.139 37.4784C38.715 36.864 39.002 36.1045 39 35.2C38.998 34.2955 38.71 33.536 38.136 32.9216C37.562 32.3072 36.85 32 36 32H24C23.15 32 22.438 32.3072 21.864 32.9216C21.29 33.536 21.002 34.2955 21 35.2C20.998 36.1045 21.286 36.8651 21.864 37.4816C22.442 38.0981 23.154 38.4043 24 38.4Z"
-                                        fill="black" />
-                                </svg>
-                                Inventory Management
-                            </li>
-                            <li>
-                                <svg width="69" height="73" viewBox="0 0 69 73" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M63.6673 8.46279C63.6673 9.57413 63.4604 10.6746 63.0584 11.7014C62.6564 12.7281 62.0672 13.661 61.3244 14.4469C60.5816 15.2327 59.6998 15.8561 58.7293 16.2814C57.7588 16.7067 56.7187 16.9256 55.6682 16.9256C54.6178 16.9256 53.5776 16.7067 52.6071 16.2814C51.6366 15.8561 50.7548 15.2327 50.012 14.4469C49.2692 13.661 48.68 12.7281 48.278 11.7014C47.876 10.6746 47.6691 9.57413 47.6691 8.46279C47.6691 6.21832 48.5119 4.06577 50.012 2.47869C51.5121 0.891612 53.5467 0 55.6682 0C57.7897 0 59.8243 0.891612 61.3244 2.47869C62.8245 4.06577 63.6673 6.21832 63.6673 8.46279ZM68.7141 34.7271C68.5305 35.5944 68.0731 36.3695 67.4173 36.9249C66.7615 37.4804 65.9465 37.7829 65.1064 37.7827H34.983C34.0026 37.7827 33.0624 37.3707 32.3692 36.6373C31.676 35.9039 31.2866 34.9092 31.2866 33.872C31.2866 32.8348 31.676 31.8401 32.3692 31.1067C33.0624 30.3733 34.0026 29.9613 34.983 29.9613H42.849C43.7393 26.6957 45.7139 23.8798 48.4097 22.0313C51.1055 20.1828 54.3414 19.4259 57.5226 19.8997C60.7037 20.3735 63.6163 22.0462 65.7249 24.6103C67.8335 27.1744 68.9965 30.4576 69 33.8564C68.9998 34.1723 68.8991 34.479 68.7141 34.7271ZM6.69793 17.3323C6.69793 19.8367 7.63831 22.2386 9.31219 24.0095C10.9861 25.7805 13.2563 26.7754 15.6236 26.7754C17.9908 26.7754 20.2611 25.7805 21.935 24.0095C23.6088 22.2386 24.5492 19.8367 24.5492 17.3323C24.5492 14.8278 23.6088 12.4259 21.935 10.655C20.2611 8.88411 17.9908 7.88921 15.6236 7.88921C13.2563 7.88921 10.9861 8.88411 9.31219 10.655C7.63831 12.4259 6.69793 14.8278 6.69793 17.3323ZM0 47.0276C-3.0573e-08 44.857 0.404116 42.7076 1.18927 40.7022C1.97443 38.6967 3.12526 36.8746 4.57604 35.3397C6.02682 33.8048 7.74915 32.5872 9.64469 31.7566C11.5402 30.9259 13.5719 30.4984 15.6236 30.4984C17.6753 30.4984 19.7069 30.9259 21.6025 31.7566C23.498 32.5872 25.2203 33.8048 26.6711 35.3397C28.1219 36.8746 29.2727 38.6967 30.0579 40.7022C30.843 42.7076 31.2471 44.857 31.2471 47.0276V51.5015C31.2471 52.193 30.9875 52.8561 30.5254 53.345C30.0632 53.834 29.4364 54.1086 28.7829 54.1086H24.5443L22.5827 70.7161C22.5082 71.3466 22.2188 71.9266 21.7686 72.3471C21.3185 72.7676 20.7387 72.9998 20.1381 73H11.1041C10.5035 72.9998 9.92374 72.7676 9.4736 72.3471C9.02346 71.9266 8.73397 71.3466 8.6595 70.7161L6.693 54.1086H2.46429C1.81072 54.1086 1.18392 53.834 0.721773 53.345C0.259629 52.8561 0 52.193 0 51.5015V47.0276Z"
-                                        fill="black" />
-                                </svg>
-                                Reach More Customers
-                            </li>
-                        </ul>
-                        <a href="#" class="btn-vendor">
-                            <svg width="70" height="67" viewBox="0 0 70 67" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+  <header>
+    <div class="logo">
+      <img src="images/GM-Logo.png" alt="Greens Mtaani Logo">
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#vendor">Vendor</a>
+      <a href="#customer">Customer</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  
+
+   <main>
+       <section class="hero" id="home">
+           <div class="grouped-ellipse">
+               <div class="lightgreen-ellipse"></div>
+               <div class="white-ellipse"></div>
+           </div>
+           <div class="hero-content">
+               <h1>Welcome to<br> <span id="greens">Greens</span> <span id="mtaani">Mtaani</span></h1>
+               <p>Easily order fresh produce from local Mama Mbogas with our app.</p>
+               <button>Order Now</button>
+           </div>
+           <div class="hero-img">
+               <img src="images/Ellipse 78.png" alt="Salad Bowl">
+           </div>
+       </section>
+
+
+       <section class="offer">
+           <h2>What we Offer</h2>
+           <div class="offer-cards">
+               <div class="offer-card">
+                   <div class="offer-img">
+                       <img src="images/salad-veggies.png" alt="Veggies">
+                   </div>
+                   <p>For clean and healthy fruits and vegetables everyday!</p>
+                   <div class="underline"></div>
+               </div>
+               <div class="offer-card">
+                   <div class="offer-img">
+                       <img src="images/nutri-planner.png" alt="Nutrition">
+                   </div>
+                   <p>Enjoy an easy and effective nutrition planning experience!</p>
+                   <div class="underline"></div>
+               </div>
+               <div class="offer-card">
+                   <div class="offer-img">
+                       <img src="images/package.png" alt="Orders">
+                   </div>
+                   <p>Set up recurring orders effortlessly & easily manage all your orders!</p>
+                   <div class="underline"></div>
+               </div>
+           </div>
+       </section>
+
+
+       <section class="quotes">
+           <img src="images/grape.jpg" alt="" class="grape">
+           <p> <b> "To eat is a necessity, but to eat intelligently is an art. Join us for a good nutrition
+                   planning platform"</b></p>
+           <img src="images/salad.jpeg" alt="" class="salad">
+       </section>
+
+
+       <section class="services-section">
+           <h2>Our Services</h2>
+           <div class="services-cards">
+               <div class="service-card">
+                   <div class="flip-card-inner">
+                       <div class="flip-card-front">
+                           <img src="images/vegetable.png" alt="Vegetables" />
+                           <span>Vegetables</span>
+                       </div>
+                       <div class="flip-card-back">
+                           <img src="images/3a5b13ec4e077da8bb4f6663aa7f0ad3.jpg" alt="Fresh Vegetables" />
+                           <span>Fresh Vegetables</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="service-card">
+                   <div class="flip-card-inner">
+                       <div class="flip-card-front">
+                           <img src="images/basket.png" alt="Fruits" />
+                           <span>Fruits</span>
+                       </div>
+                       <div class="flip-card-back">
+                           <img src="images/fruits-.jpg" alt="Fresh Fruits" />
+                           <span>Fresh Fruits</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="service-card">
+                   <div class="flip-card-inner">
+                       <div class="flip-card-front">
+                           <img src="images/cooking.png" alt="Recipes" />
+                           <span>Recipes</span>
+                       </div>
+                       <div class="flip-card-back">
+                           <img src="images/reciepss.png" alt="Recipe Example" />
+                           <span>Healthy Recipes</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+
+       <section class="mockups">
+           <section class="phones-section">
+               <div class="phones-and-ring">
+                   <img id="mock-ups" src="images/apron4 (1) 1.png" class="phone phone-left"
+                       alt="Greens Mtaani App Screen 1" />
+                   <img src="images/bag3 (1) 1.png" class="phone phone-right" alt="Greens Mtaani App Screen 2" />
+               </div>
+           </section>
+           <section class="phones-section">
+               <div class="phones-and-ring">
+                   <div class="orange-ring"></div>
+                   <img src="images/customers-removebg-preview.png" class="phone phone-left"
+                       alt="Greens Mtaani App Screen 1" />
+                   <img src="images/mamamboga-removebg-preview (1).png" class="phone phone-right"
+                       alt="Greens Mtaani App Screen 2" />
+               </div>
+           </section>
+           <section class="phones-section">
+               <div class="phones-and-ring">
+                   <img id="mock-ups" src="images/black-shirt.png" class="phone phone-left"
+                       alt="Greens Mtaani App Screen 1" />
+                   <img id="mock-ups" src="images/white-shirt.png" class="phone phone-right"
+                       alt="Greens Mtaani App Screen 2" />
+               </div>
+           </section>
+       </section>
+
+       <!-- Why Choose Us -->
+    <section class="content-wrapper">
+        <div class="section why-choose-us" id="vendor">
+            <h2>Why Choose Us</h2>
+            <div class="content-block">
+                <div class="image-container">
+                    <img src="images/mamamboga-removebg-preview (1).png" alt="Greens Mtaani App on Phone">
+                </div>
+                <div class="text-content">
+                    <h3 class="vendor-title">For Vendors</h3>
+                    <p class="vendor-description">Grow Your Business with Ease</p>
+                    <ul class="feature-list">
+                        <li>
+                            <svg width="59" height="63" viewBox="0 0 59 63" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M19.67 5.59995C15.7413 3.50062 11.0906 5.27333 9.40625 8.82572L35.1837 33.4999L48.3292 20.9178L19.67 5.59995Z"
-                                    fill="url(#paint0_linear_1157_346)" />
-                                <path
-                                    d="M48.3292 46.082L35.1837 33.5L9.40625 58.1741C11.0921 61.7279 15.7427 63.4992 19.67 61.4013L48.3292 46.082Z"
-                                    fill="url(#paint1_linear_1157_346)" />
-                                <path
-                                    d="M60.4026 39.6319C62.9109 38.2919 64.1651 35.8967 64.1665 33.5C64.1651 31.1034 62.9109 28.7067 60.4026 27.3681L48.329 20.918L35.1836 33.5L48.329 46.0821L60.4026 39.6319Z"
-                                    fill="url(#paint2_linear_1157_346)" />
-                                <path
-                                    d="M9.40625 8.82617C8.995 9.69857 8.75 10.6812 8.75 11.7365V55.2572C8.75 56.3194 8.98917 57.2993 9.40625 58.1745L35.1808 33.4961L9.40625 8.82617Z"
-                                    fill="url(#paint3_linear_1157_346)" />
-                                <defs>
-                                    <linearGradient id="paint0_linear_1157_346" x1="26.3987" y1="4.52795" x2="36.0515"
-                                        y2="48.6748" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#35AB4A" />
-                                        <stop offset="0.297" stop-color="#31A145" />
-                                        <stop offset="0.798" stop-color="#288739" />
-                                        <stop offset="1" stop-color="#237A33" />
-                                    </linearGradient>
-                                    <linearGradient id="paint1_linear_1157_346" x1="27.9388" y1="33.3074" x2="30.6594"
-                                        y2="93.4358" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#F14E5D" />
-                                        <stop offset="0.499" stop-color="#EA3D4F" />
-                                        <stop offset="1" stop-color="#E12138" />
-                                    </linearGradient>
-                                    <linearGradient id="paint2_linear_1157_346" x1="48.0417" y1="20.7965" x2="52.8549"
-                                        y2="60.9271" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFD844" />
-                                        <stop offset="0.519" stop-color="#FFC63F" />
-                                        <stop offset="1" stop-color="#FFB03A" />
-                                    </linearGradient>
-                                    <linearGradient id="paint3_linear_1157_346" x1="20.2023" y1="8.23713" x2="22.4993"
-                                        y2="59.7667" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0.003" stop-color="#0090E6" />
-                                        <stop offset="1" stop-color="#0065A0" />
-                                    </linearGradient>
-                                </defs>
+                                    d="M26.2222 28V0H6.55556C2.95 0 0 3.15 0 7V28H26.2222ZM32.7778 28H59V7C59 3.15 56.05 0 52.4444 0H32.7778V28ZM26.2222 35H0V56C0 59.85 2.95 63 6.55556 63H26.2222V35ZM32.7778 35V63H52.4444C56.05 63 59 59.85 59 56V35H32.7778Z"
+                                    fill="black" />
                             </svg>
-
-                            Register as a Vendor
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="section how-to-join">
-                <h2>How to join us?</h2>
-                <div class="join-grid">
-                    <div class="join-step step1">
-                        <span class="how-it-works-number">1</span>
-                        <div class="step-text">
-                            Our team will review your application and contact you for a quick verification.
-                        </div>
-                    </div>
-                    <div class="join-step step2">
-                        <div class="how-it-works-number">2</div>
-                        <div class="step-text">
-                            Sign Up Online, Fill out the vendor registration form with your details.
-                        </div>
-                    </div>
-                    <div class="join-step step3">
-                        <span class="how-it-works-number">3</span>
-                        <div class="step-text">
-                            Set Up the list of your available produce and prices through our PWA platform.
-                        </div>
-                    </div>
-                    <div class="join-step step4">
-                        <span class="how-it-works-number">4</span>
-                        <div class="step-text">
-                            Start Selling! Grow your business with Greens Mtaani.
-                        </div>
-                    </div>
-                    <div class="grid-divider h-divider"></div>
-                    <div class="grid-divider v-divider"></div>
-                </div>
-            </div>
-            <div class="section for-customers" id="customer">
-                <div class="content-block reverse-order">
-                    <div class="image-container">
-                        <img src="images/customers-removebg-preview.png" alt="Greens Mtaani App on Phone">
-                    </div>
-                    <div class="text-content">
-                        <h3 class="customer-title">For Customers</h3>
-                        <p class="intro-text">Get Fresh Groceries from your local Mama Mboga with just a click</p>
-                        <ul class="feature-list">
-                            <li><svg width="58" height="62" viewBox="0 0 58 62" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M41.3975 53.475L51.475 42.78L48.43 39.525L41.3975 46.8875L38.57 43.865L35.525 47.1975L41.3975 53.475ZM8.7 18.6H43.5V12.4H8.7V18.6ZM43.5 62C39.4883 62 36.0692 60.4882 33.2427 57.4647C30.4162 54.4412 29.0019 50.7863 29 46.5C28.9981 42.2137 30.4123 38.5588 33.2427 35.5353C36.0731 32.5118 39.4922 31 43.5 31C47.5078 31 50.9279 32.5118 53.7602 35.5353C56.5925 38.5588 58.0058 42.2137 58 46.5C57.9942 50.7863 56.58 54.4422 53.7573 57.4678C50.9346 60.4934 47.5155 62.0041 43.5 62ZM0 58.9V6.2C0 4.495 0.5684 3.03593 1.7052 1.8228C2.842 0.609667 4.20693 0.00206667 5.8 0H46.4C47.995 0 49.3609 0.6076 50.4977 1.8228C51.6345 3.038 52.2019 4.49707 52.2 6.2V26.8925C50.8467 26.1692 49.4324 25.6391 47.9573 25.3022C46.4822 24.9653 44.9964 24.7979 43.5 24.8H8.7V31H29.29C28.4683 31.8783 27.7076 32.8342 27.0077 33.8675C26.3078 34.9008 25.6911 36.0117 25.1575 37.2H8.7V43.4H23.4175C23.3208 43.9167 23.2609 44.4209 23.2377 44.9128C23.2145 45.4047 23.2019 45.9337 23.2 46.5C23.2 48.67 23.4784 50.7501 24.0352 52.7403C24.592 54.7305 25.4253 56.6287 26.535 58.435L26.1 58.9L21.75 54.25L17.4 58.9L13.05 54.25L8.7 58.9L4.35 54.25L0 58.9Z"
-                                        fill="black" />
-                                </svg>
-                                Product Discovery</li>
-                            <li><svg width="67" height="71" viewBox="0 0 67 71" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M20.1186 70.9999C18.2744 70.9999 16.6962 70.3053 15.384 68.9161C14.0718 67.5268 13.4146 65.8548 13.4124 63.8999C13.4102 61.945 14.0674 60.2742 15.384 58.8873C16.7007 57.5005 18.2789 56.8047 20.1186 56.7999C21.9583 56.7952 23.5376 57.491 24.8565 58.8873C26.1754 60.2836 26.8315 61.9545 26.8248 63.8999C26.8181 65.8453 26.162 67.5174 24.8565 68.9161C23.551 70.3148 21.9717 71.0094 20.1186 70.9999ZM53.6496 70.9999C51.8054 70.9999 50.2272 70.3053 48.915 68.9161C47.6028 67.5268 46.9456 65.8548 46.9434 63.8999C46.9411 61.945 47.5983 60.2742 48.915 58.8873C50.2316 57.5005 51.8098 56.8047 53.6496 56.7999C55.4893 56.7952 57.0686 57.491 58.3875 58.8873C59.7064 60.2836 60.3625 61.9545 60.3558 63.8999C60.3491 65.8453 59.693 67.5174 58.3875 68.9161C57.082 70.3148 55.5027 71.0094 53.6496 70.9999ZM14.083 7.09999H63.5412C64.8266 7.09999 65.8046 7.70704 66.4752 8.92114C67.1458 10.1352 67.1737 11.3624 66.559 12.6025L54.6555 35.3225C54.0408 36.5058 53.217 37.4229 52.1843 38.0737C51.1515 38.7245 50.0193 39.0499 48.7876 39.0499H23.807L20.1186 46.1499H60.3558V53.2499H20.1186C17.6038 53.2499 15.7037 52.082 14.4183 49.7461C13.133 47.4102 13.0771 45.0873 14.2507 42.7774L18.7773 34.08L6.7062 7.09999H0V0H10.8976L14.083 7.09999Z"
-                                        fill="black" />
-                                </svg>
-                                Instant Checkout</li>
-                            <li><svg width="59" height="63" viewBox="0 0 59 63" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M29.5 37.8C28.5713 37.8 27.7934 37.4976 27.1662 36.8928C26.5391 36.288 26.2244 35.5404 26.2222 34.65C26.22 33.7596 26.5347 33.012 27.1662 32.4072C27.7977 31.8024 28.5757 31.5 29.5 31.5C30.4243 31.5 31.2034 31.8024 31.8371 32.4072C32.4708 33.012 32.7843 33.7596 32.7778 34.65C32.7712 35.5404 32.4566 36.289 31.8338 36.8959C31.211 37.5028 30.4331 37.8042 29.5 37.8ZM16.3889 37.8C15.4602 37.8 14.6823 37.4976 14.0551 36.8928C13.428 36.288 13.1133 35.5404 13.1111 34.65C13.1089 33.7596 13.4236 33.012 14.0551 32.4072C14.6866 31.8024 15.4646 31.5 16.3889 31.5C17.3132 31.5 18.0922 31.8024 18.7259 32.4072C19.3596 33.012 19.6732 33.7596 19.6667 34.65C19.6601 35.5404 19.3454 36.289 18.7227 36.8959C18.0999 37.5028 17.322 37.8042 16.3889 37.8ZM42.6111 37.8C41.6824 37.8 40.9045 37.4976 40.2773 36.8928C39.6502 36.288 39.3355 35.5404 39.3333 34.65C39.3311 33.7596 39.6458 33.012 40.2773 32.4072C40.9088 31.8024 41.6868 31.5 42.6111 31.5C43.5354 31.5 44.3145 31.8024 44.9482 32.4072C45.5819 33.012 45.8954 33.7596 45.8889 34.65C45.8823 35.5404 45.5677 36.289 44.9449 36.8959C44.3221 37.5028 43.5442 37.8042 42.6111 37.8ZM29.5 50.4C28.5713 50.4 27.7934 50.0976 27.1662 49.4928C26.5391 48.888 26.2244 48.1404 26.2222 47.25C26.22 46.3596 26.5347 45.612 27.1662 45.0072C27.7977 44.4024 28.5757 44.1 29.5 44.1C30.4243 44.1 31.2034 44.4024 31.8371 45.0072C32.4708 45.612 32.7843 46.3596 32.7778 47.25C32.7712 48.1404 32.4566 48.889 31.8338 49.4959C31.211 50.1028 30.4331 50.4042 29.5 50.4ZM16.3889 50.4C15.4602 50.4 14.6823 50.0976 14.0551 49.4928C13.428 48.888 13.1133 48.1404 13.1111 47.25C13.1089 46.3596 13.4236 45.612 14.0551 45.0072C14.6866 44.4024 15.4646 44.1 16.3889 44.1C17.3132 44.1 18.0922 44.4024 18.7259 45.0072C19.3596 45.612 19.6732 46.3596 19.6667 47.25C19.6601 48.1404 19.3454 48.889 18.7227 49.4959C18.0999 50.1028 17.322 50.4042 16.3889 50.4ZM42.6111 50.4C41.6824 50.4 40.9045 50.0976 40.2773 49.4928C39.6502 48.888 39.3355 48.1404 39.3333 47.25C39.3311 46.3596 39.6458 45.612 40.2773 45.0072C40.9088 44.4024 41.6868 44.1 42.6111 44.1C43.5354 44.1 44.3145 44.4024 44.9482 45.0072C45.5819 45.612 45.8954 46.3596 45.8889 47.25C45.8823 48.1404 45.5677 48.889 44.9449 49.4959C44.3221 50.1028 43.5442 50.4042 42.6111 50.4ZM6.55555 63C4.75278 63 3.21004 62.3836 1.92733 61.1509C0.64463 59.9182 0.00218518 58.4346 0 56.7V12.6C0 10.8675 0.642445 9.3849 1.92733 8.1522C3.21222 6.9195 4.75496 6.3021 6.55555 6.3H9.83333V0H16.3889V6.3H42.6111V0H49.1667V6.3H52.4444C54.2472 6.3 55.791 6.9174 57.0759 8.1522C58.3608 9.387 59.0022 10.8696 59 12.6V56.7C59 58.4325 58.3586 59.9161 57.0759 61.1509C55.7932 62.3857 54.2494 63.0021 52.4444 63H6.55555ZM6.55555 56.7H52.4444V25.2H6.55555V56.7Z"
-                                        fill="black" />
-                                </svg>
-                                Customized Meal Plan</li>
-                        </ul>
-                        <a href="#" class="btn-download"><svg width="70" height="67" viewBox="0 0 70 67" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            Community Support
+                        </li>
+                        <li>
+                            <svg width="60" height="64" viewBox="0 0 60 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M19.67 5.59995C15.7413 3.50062 11.0906 5.27333 9.40625 8.82572L35.1837 33.4999L48.3292 20.9178L19.67 5.59995Z"
-                                    fill="url(#paint0_linear_1157_346)" />
-                                <path
-                                    d="M48.3292 46.082L35.1837 33.5L9.40625 58.1741C11.0921 61.7279 15.7427 63.4992 19.67 61.4013L48.3292 46.082Z"
-                                    fill="url(#paint1_linear_1157_346)" />
-                                <path
-                                    d="M60.4026 39.6319C62.9109 38.2919 64.1651 35.8967 64.1665 33.5C64.1651 31.1034 62.9109 28.7067 60.4026 27.3681L48.329 20.918L35.1836 33.5L48.329 46.0821L60.4026 39.6319Z"
-                                    fill="url(#paint2_linear_1157_346)" />
-                                <path
-                                    d="M9.40625 8.82617C8.995 9.69857 8.75 10.6812 8.75 11.7365V55.2572C8.75 56.3194 8.98917 57.2993 9.40625 58.1745L35.1808 33.4961L9.40625 8.82617Z"
-                                    fill="url(#paint3_linear_1157_346)" />
-                                <defs>
-                                    <linearGradient id="paint0_linear_1157_346" x1="26.3987" y1="4.52795" x2="36.0515"
-                                        y2="48.6748" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#35AB4A" />
-                                        <stop offset="0.297" stop-color="#31A145" />
-                                        <stop offset="0.798" stop-color="#288739" />
-                                        <stop offset="1" stop-color="#237A33" />
-                                    </linearGradient>
-                                    <linearGradient id="paint1_linear_1157_346" x1="27.9388" y1="33.3074" x2="30.6594"
-                                        y2="93.4358" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#F14E5D" />
-                                        <stop offset="0.499" stop-color="#EA3D4F" />
-                                        <stop offset="1" stop-color="#E12138" />
-                                    </linearGradient>
-                                    <linearGradient id="paint2_linear_1157_346" x1="48.0417" y1="20.7965" x2="52.8549"
-                                        y2="60.9271" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFD844" />
-                                        <stop offset="0.519" stop-color="#FFC63F" />
-                                        <stop offset="1" stop-color="#FFB03A" />
-                                    </linearGradient>
-                                    <linearGradient id="paint3_linear_1157_346" x1="20.2023" y1="8.23713" x2="22.4993"
-                                        y2="59.7667" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0.003" stop-color="#0090E6" />
-                                        <stop offset="1" stop-color="#0065A0" />
-                                    </linearGradient>
-                                </defs>
+                                    d="M9 64C7.35 64 5.938 63.3739 4.764 62.1216C3.59 60.8693 3.002 59.3621 3 57.6V21.52C2.1 20.9333 1.375 20.1739 0.825 19.2416C0.275 18.3093 0 17.2288 0 16V6.4C0 4.64 0.588 3.13387 1.764 1.8816C2.94 0.629333 4.352 0.00213333 6 0H54C55.65 0 57.063 0.6272 58.239 1.8816C59.415 3.136 60.002 4.64213 60 6.4V16C60 17.2267 59.725 18.3072 59.175 19.2416C58.625 20.176 57.9 20.9344 57 21.5168V57.6C57 59.36 56.413 60.8672 55.239 62.1216C54.065 63.376 52.652 64.0021 51 64H9ZM6 16H54V6.4H6V16ZM24 38.4H36C36.85 38.4 37.563 38.0928 38.139 37.4784C38.715 36.864 39.002 36.1045 39 35.2C38.998 34.2955 38.71 33.536 38.136 32.9216C37.562 32.3072 36.85 32 36 32H24C23.15 32 22.438 32.3072 21.864 32.9216C21.29 33.536 21.002 34.2955 21 35.2C20.998 36.1045 21.286 36.8651 21.864 37.4816C22.442 38.0981 23.154 38.4043 24 38.4Z"
+                                    fill="black" />
                             </svg>
-                            Download App <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
+                            Inventory Management
+                        </li>
+                        <li>
+                            <svg width="69" height="73" viewBox="0 0 69 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M63.6673 8.46279C63.6673 9.57413 63.4604 10.6746 63.0584 11.7014C62.6564 12.7281 62.0672 13.661 61.3244 14.4469C60.5816 15.2327 59.6998 15.8561 58.7293 16.2814C57.7588 16.7067 56.7187 16.9256 55.6682 16.9256C54.6178 16.9256 53.5776 16.7067 52.6071 16.2814C51.6366 15.8561 50.7548 15.2327 50.012 14.4469C49.2692 13.661 48.68 12.7281 48.278 11.7014C47.876 10.6746 47.6691 9.57413 47.6691 8.46279C47.6691 6.21832 48.5119 4.06577 50.012 2.47869C51.5121 0.891612 53.5467 0 55.6682 0C57.7897 0 59.8243 0.891612 61.3244 2.47869C62.8245 4.06577 63.6673 6.21832 63.6673 8.46279ZM68.7141 34.7271C68.5305 35.5944 68.0731 36.3695 67.4173 36.9249C66.7615 37.4804 65.9465 37.7829 65.1064 37.7827H34.983C34.0026 37.7827 33.0624 37.3707 32.3692 36.6373C31.676 35.9039 31.2866 34.9092 31.2866 33.872C31.2866 32.8348 31.676 31.8401 32.3692 31.1067C33.0624 30.3733 34.0026 29.9613 34.983 29.9613H42.849C43.7393 26.6957 45.7139 23.8798 48.4097 22.0313C51.1055 20.1828 54.3414 19.4259 57.5226 19.8997C60.7037 20.3735 63.6163 22.0462 65.7249 24.6103C67.8335 27.1744 68.9965 30.4576 69 33.8564C68.9998 34.1723 68.8991 34.479 68.7141 34.7271ZM6.69793 17.3323C6.69793 19.8367 7.63831 22.2386 9.31219 24.0095C10.9861 25.7805 13.2563 26.7754 15.6236 26.7754C17.9908 26.7754 20.2611 25.7805 21.935 24.0095C23.6088 22.2386 24.5492 19.8367 24.5492 17.3323C24.5492 14.8278 23.6088 12.4259 21.935 10.655C20.2611 8.88411 17.9908 7.88921 15.6236 7.88921C13.2563 7.88921 10.9861 8.88411 9.31219 10.655C7.63831 12.4259 6.69793 14.8278 6.69793 17.3323ZM0 47.0276C-3.0573e-08 44.857 0.404116 42.7076 1.18927 40.7022C1.97443 38.6967 3.12526 36.8746 4.57604 35.3397C6.02682 33.8048 7.74915 32.5872 9.64469 31.7566C11.5402 30.9259 13.5719 30.4984 15.6236 30.4984C17.6753 30.4984 19.7069 30.9259 21.6025 31.7566C23.498 32.5872 25.2203 33.8048 26.6711 35.3397C28.1219 36.8746 29.2727 38.6967 30.0579 40.7022C30.843 42.7076 31.2471 44.857 31.2471 47.0276V51.5015C31.2471 52.193 30.9875 52.8561 30.5254 53.345C30.0632 53.834 29.4364 54.1086 28.7829 54.1086H24.5443L22.5827 70.7161C22.5082 71.3466 22.2188 71.9266 21.7686 72.3471C21.3185 72.7676 20.7387 72.9998 20.1381 73H11.1041C10.5035 72.9998 9.92374 72.7676 9.4736 72.3471C9.02346 71.9266 8.73397 71.3466 8.6595 70.7161L6.693 54.1086H2.46429C1.81072 54.1086 1.18392 53.834 0.721773 53.345C0.259629 52.8561 0 52.193 0 51.5015V47.0276Z"
+                                    fill="black" />
+                            </svg>
+                            Reach More Customers
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-vendor">
+                        <svg width="70" height="67" viewBox="0 0 70 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.67 5.59995C15.7413 3.50062 11.0906 5.27333 9.40625 8.82572L35.1837 33.4999L48.3292 20.9178L19.67 5.59995Z"
+                                fill="url(#paint0_linear_1157_346)" />
+                            <path
+                                d="M48.3292 46.082L35.1837 33.5L9.40625 58.1741C11.0921 61.7279 15.7427 63.4992 19.67 61.4013L48.3292 46.082Z"
+                                fill="url(#paint1_linear_1157_346)" />
+                            <path
+                                d="M60.4026 39.6319C62.9109 38.2919 64.1651 35.8967 64.1665 33.5C64.1651 31.1034 62.9109 28.7067 60.4026 27.3681L48.329 20.918L35.1836 33.5L48.329 46.0821L60.4026 39.6319Z"
+                                fill="url(#paint2_linear_1157_346)" />
+                            <path
+                                d="M9.40625 8.82617C8.995 9.69857 8.75 10.6812 8.75 11.7365V55.2572C8.75 56.3194 8.98917 57.2993 9.40625 58.1745L35.1808 33.4961L9.40625 8.82617Z"
+                                fill="url(#paint3_linear_1157_346)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_1157_346" x1="26.3987" y1="4.52795" x2="36.0515"
+                                    y2="48.6748" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#35AB4A" />
+                                    <stop offset="0.297" stop-color="#31A145" />
+                                    <stop offset="0.798" stop-color="#288739" />
+                                    <stop offset="1" stop-color="#237A33" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_1157_346" x1="27.9388" y1="33.3074" x2="30.6594"
+                                    y2="93.4358" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F14E5D" />
+                                    <stop offset="0.499" stop-color="#EA3D4F" />
+                                    <stop offset="1" stop-color="#E12138" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_1157_346" x1="48.0417" y1="20.7965" x2="52.8549"
+                                    y2="60.9271" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFD844" />
+                                    <stop offset="0.519" stop-color="#FFC63F" />
+                                    <stop offset="1" stop-color="#FFB03A" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_1157_346" x1="20.2023" y1="8.23713" x2="22.4993"
+                                    y2="59.7667" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.003" stop-color="#0090E6" />
+                                    <stop offset="1" stop-color="#0065A0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+    
+                        Register as a Vendor
+                    </a>
                 </div>
             </div>
-
-            <div class="how-it-works">
-                <h2 class="how-it-works-title">How it works?</h2>
-                <div class="how-it-works-steps">
-                    <div class="how-it-works-step">
-                        <div class="how-it-works-number">1</div>
-                        <p class="how-it-works-description">
-                            Download and launch the app on your mobile device and register.
-                        </p>
-                    </div>
-                    <div class="how-it-works-step">
-                        <div class="how-it-works-number">2</div>
-                        <p class="how-it-works-description">
-                            Browse: Explore fresh produce in your area.
-                        </p>
-                    </div>
-                    <div class="how-it-works-step">
-                        <div class="how-it-works-number">3</div>
-                        <p class="how-it-works-description">
-                            Tap nutrition Goals and set it to modify your goals.
-                        </p>
+        </div>
+        <div class="section how-to-join">
+            <h2>How to join us?</h2>
+            <div class="join-grid">
+                <div class="join-step step1">
+                    <span class="how-it-works-number">1</span>
+                    <div class="step-text">
+                        Our team will review your application and contact you for a quick verification.
                     </div>
                 </div>
+                <div class="join-step step2">
+                    <div class="how-it-works-number">2</div>
+                    <div class="step-text">
+                        Sign Up Online, Fill out the vendor registration form with your details.
+                    </div>
+                </div>
+                <div class="join-step step3">
+                    <span class="how-it-works-number">3</span>
+                    <div class="step-text">
+                        Set Up the list of your available produce and prices through our PWA platform.
+                    </div>
+                </div>
+                <div class="join-step step4">
+                    <span class="how-it-works-number">4</span>
+                    <div class="step-text">
+                        Start Selling! Grow your business with Greens Mtaani.
+                    </div>
+                </div>
+                <div class="grid-divider h-divider"></div>
+                <div class="grid-divider v-divider"></div>
             </div>
-        </section>
-    </main>
+        </div>
+        <div class="section for-customers" id="customer">
+            <div class="content-block reverse-order">
+                <div class="image-container">
+                    <img src="images/customers-removebg-preview.png" alt="Greens Mtaani App on Phone">
+                </div>
+                <div class="text-content">
+                    <h3 class="customer-title">For Customers</h3>
+                    <p class="intro-text">Get Fresh Groceries from your local Mama Mboga with just a click</p>
+                    <ul class="feature-list">
+                        <li><svg width="58" height="62" viewBox="0 0 58 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M41.3975 53.475L51.475 42.78L48.43 39.525L41.3975 46.8875L38.57 43.865L35.525 47.1975L41.3975 53.475ZM8.7 18.6H43.5V12.4H8.7V18.6ZM43.5 62C39.4883 62 36.0692 60.4882 33.2427 57.4647C30.4162 54.4412 29.0019 50.7863 29 46.5C28.9981 42.2137 30.4123 38.5588 33.2427 35.5353C36.0731 32.5118 39.4922 31 43.5 31C47.5078 31 50.9279 32.5118 53.7602 35.5353C56.5925 38.5588 58.0058 42.2137 58 46.5C57.9942 50.7863 56.58 54.4422 53.7573 57.4678C50.9346 60.4934 47.5155 62.0041 43.5 62ZM0 58.9V6.2C0 4.495 0.5684 3.03593 1.7052 1.8228C2.842 0.609667 4.20693 0.00206667 5.8 0H46.4C47.995 0 49.3609 0.6076 50.4977 1.8228C51.6345 3.038 52.2019 4.49707 52.2 6.2V26.8925C50.8467 26.1692 49.4324 25.6391 47.9573 25.3022C46.4822 24.9653 44.9964 24.7979 43.5 24.8H8.7V31H29.29C28.4683 31.8783 27.7076 32.8342 27.0077 33.8675C26.3078 34.9008 25.6911 36.0117 25.1575 37.2H8.7V43.4H23.4175C23.3208 43.9167 23.2609 44.4209 23.2377 44.9128C23.2145 45.4047 23.2019 45.9337 23.2 46.5C23.2 48.67 23.4784 50.7501 24.0352 52.7403C24.592 54.7305 25.4253 56.6287 26.535 58.435L26.1 58.9L21.75 54.25L17.4 58.9L13.05 54.25L8.7 58.9L4.35 54.25L0 58.9Z"
+                                    fill="black" />
+                            </svg>
+                            Product Discovery</li>
+                        <li><svg width="67" height="71" viewBox="0 0 67 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.1186 70.9999C18.2744 70.9999 16.6962 70.3053 15.384 68.9161C14.0718 67.5268 13.4146 65.8548 13.4124 63.8999C13.4102 61.945 14.0674 60.2742 15.384 58.8873C16.7007 57.5005 18.2789 56.8047 20.1186 56.7999C21.9583 56.7952 23.5376 57.491 24.8565 58.8873C26.1754 60.2836 26.8315 61.9545 26.8248 63.8999C26.8181 65.8453 26.162 67.5174 24.8565 68.9161C23.551 70.3148 21.9717 71.0094 20.1186 70.9999ZM53.6496 70.9999C51.8054 70.9999 50.2272 70.3053 48.915 68.9161C47.6028 67.5268 46.9456 65.8548 46.9434 63.8999C46.9411 61.945 47.5983 60.2742 48.915 58.8873C50.2316 57.5005 51.8098 56.8047 53.6496 56.7999C55.4893 56.7952 57.0686 57.491 58.3875 58.8873C59.7064 60.2836 60.3625 61.9545 60.3558 63.8999C60.3491 65.8453 59.693 67.5174 58.3875 68.9161C57.082 70.3148 55.5027 71.0094 53.6496 70.9999ZM14.083 7.09999H63.5412C64.8266 7.09999 65.8046 7.70704 66.4752 8.92114C67.1458 10.1352 67.1737 11.3624 66.559 12.6025L54.6555 35.3225C54.0408 36.5058 53.217 37.4229 52.1843 38.0737C51.1515 38.7245 50.0193 39.0499 48.7876 39.0499H23.807L20.1186 46.1499H60.3558V53.2499H20.1186C17.6038 53.2499 15.7037 52.082 14.4183 49.7461C13.133 47.4102 13.0771 45.0873 14.2507 42.7774L18.7773 34.08L6.7062 7.09999H0V0H10.8976L14.083 7.09999Z"
+                                    fill="black" />
+                            </svg>
+                            Instant Checkout</li>
+                        <li><svg width="59" height="63" viewBox="0 0 59 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.5 37.8C28.5713 37.8 27.7934 37.4976 27.1662 36.8928C26.5391 36.288 26.2244 35.5404 26.2222 34.65C26.22 33.7596 26.5347 33.012 27.1662 32.4072C27.7977 31.8024 28.5757 31.5 29.5 31.5C30.4243 31.5 31.2034 31.8024 31.8371 32.4072C32.4708 33.012 32.7843 33.7596 32.7778 34.65C32.7712 35.5404 32.4566 36.289 31.8338 36.8959C31.211 37.5028 30.4331 37.8042 29.5 37.8ZM16.3889 37.8C15.4602 37.8 14.6823 37.4976 14.0551 36.8928C13.428 36.288 13.1133 35.5404 13.1111 34.65C13.1089 33.7596 13.4236 33.012 14.0551 32.4072C14.6866 31.8024 15.4646 31.5 16.3889 31.5C17.3132 31.5 18.0922 31.8024 18.7259 32.4072C19.3596 33.012 19.6732 33.7596 19.6667 34.65C19.6601 35.5404 19.3454 36.289 18.7227 36.8959C18.0999 37.5028 17.322 37.8042 16.3889 37.8ZM42.6111 37.8C41.6824 37.8 40.9045 37.4976 40.2773 36.8928C39.6502 36.288 39.3355 35.5404 39.3333 34.65C39.3311 33.7596 39.6458 33.012 40.2773 32.4072C40.9088 31.8024 41.6868 31.5 42.6111 31.5C43.5354 31.5 44.3145 31.8024 44.9482 32.4072C45.5819 33.012 45.8954 33.7596 45.8889 34.65C45.8823 35.5404 45.5677 36.289 44.9449 36.8959C44.3221 37.5028 43.5442 37.8042 42.6111 37.8ZM29.5 50.4C28.5713 50.4 27.7934 50.0976 27.1662 49.4928C26.5391 48.888 26.2244 48.1404 26.2222 47.25C26.22 46.3596 26.5347 45.612 27.1662 45.0072C27.7977 44.4024 28.5757 44.1 29.5 44.1C30.4243 44.1 31.2034 44.4024 31.8371 45.0072C32.4708 45.612 32.7843 46.3596 32.7778 47.25C32.7712 48.1404 32.4566 48.889 31.8338 49.4959C31.211 50.1028 30.4331 50.4042 29.5 50.4ZM16.3889 50.4C15.4602 50.4 14.6823 50.0976 14.0551 49.4928C13.428 48.888 13.1133 48.1404 13.1111 47.25C13.1089 46.3596 13.4236 45.612 14.0551 45.0072C14.6866 44.4024 15.4646 44.1 16.3889 44.1C17.3132 44.1 18.0922 44.4024 18.7259 45.0072C19.3596 45.612 19.6732 46.3596 19.6667 47.25C19.6601 48.1404 19.3454 48.889 18.7227 49.4959C18.0999 50.1028 17.322 50.4042 16.3889 50.4ZM42.6111 50.4C41.6824 50.4 40.9045 50.0976 40.2773 49.4928C39.6502 48.888 39.3355 48.1404 39.3333 47.25C39.3311 46.3596 39.6458 45.612 40.2773 45.0072C40.9088 44.4024 41.6868 44.1 42.6111 44.1C43.5354 44.1 44.3145 44.4024 44.9482 45.0072C45.5819 45.612 45.8954 46.3596 45.8889 47.25C45.8823 48.1404 45.5677 48.889 44.9449 49.4959C44.3221 50.1028 43.5442 50.4042 42.6111 50.4ZM6.55555 63C4.75278 63 3.21004 62.3836 1.92733 61.1509C0.64463 59.9182 0.00218518 58.4346 0 56.7V12.6C0 10.8675 0.642445 9.3849 1.92733 8.1522C3.21222 6.9195 4.75496 6.3021 6.55555 6.3H9.83333V0H16.3889V6.3H42.6111V0H49.1667V6.3H52.4444C54.2472 6.3 55.791 6.9174 57.0759 8.1522C58.3608 9.387 59.0022 10.8696 59 12.6V56.7C59 58.4325 58.3586 59.9161 57.0759 61.1509C55.7932 62.3857 54.2494 63.0021 52.4444 63H6.55555ZM6.55555 56.7H52.4444V25.2H6.55555V56.7Z"
+                                    fill="black" />
+                            </svg>
+                            Customized Meal Plan</li>
+                    </ul>
+                    <a href="#" class="btn-download"><svg width="70" height="67" viewBox="0 0 70 67" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.67 5.59995C15.7413 3.50062 11.0906 5.27333 9.40625 8.82572L35.1837 33.4999L48.3292 20.9178L19.67 5.59995Z"
+                                fill="url(#paint0_linear_1157_346)" />
+                            <path
+                                d="M48.3292 46.082L35.1837 33.5L9.40625 58.1741C11.0921 61.7279 15.7427 63.4992 19.67 61.4013L48.3292 46.082Z"
+                                fill="url(#paint1_linear_1157_346)" />
+                            <path
+                                d="M60.4026 39.6319C62.9109 38.2919 64.1651 35.8967 64.1665 33.5C64.1651 31.1034 62.9109 28.7067 60.4026 27.3681L48.329 20.918L35.1836 33.5L48.329 46.0821L60.4026 39.6319Z"
+                                fill="url(#paint2_linear_1157_346)" />
+                            <path
+                                d="M9.40625 8.82617C8.995 9.69857 8.75 10.6812 8.75 11.7365V55.2572C8.75 56.3194 8.98917 57.2993 9.40625 58.1745L35.1808 33.4961L9.40625 8.82617Z"
+                                fill="url(#paint3_linear_1157_346)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_1157_346" x1="26.3987" y1="4.52795" x2="36.0515"
+                                    y2="48.6748" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#35AB4A" />
+                                    <stop offset="0.297" stop-color="#31A145" />
+                                    <stop offset="0.798" stop-color="#288739" />
+                                    <stop offset="1" stop-color="#237A33" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_1157_346" x1="27.9388" y1="33.3074" x2="30.6594"
+                                    y2="93.4358" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F14E5D" />
+                                    <stop offset="0.499" stop-color="#EA3D4F" />
+                                    <stop offset="1" stop-color="#E12138" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_1157_346" x1="48.0417" y1="20.7965" x2="52.8549"
+                                    y2="60.9271" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFD844" />
+                                    <stop offset="0.519" stop-color="#FFC63F" />
+                                    <stop offset="1" stop-color="#FFB03A" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_1157_346" x1="20.2023" y1="8.23713" x2="22.4993"
+                                    y2="59.7667" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.003" stop-color="#0090E6" />
+                                    <stop offset="1" stop-color="#0065A0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        Download App </a>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="how-it-works">
+            <h2 class="how-it-works-title">How it works?</h2>
+            <div class="how-it-works-steps">
+                <div class="how-it-works-step">
+                    <div class="how-it-works-number">1</div>
+                    <p class="how-it-works-description">
+                        Download and launch the app on your mobile device and register.
+                    </p>
+                </div>
+                <div class="how-it-works-step">
+                    <div class="how-it-works-number">2</div>
+                    <p class="how-it-works-description">
+                        Browse: Explore fresh produce in your area.
+                    </p>
+                </div>
+                <div class="how-it-works-step">
+                    <div class="how-it-works-number">3</div>
+                    <p class="how-it-works-description">
+                        Tap nutrition Goals and set it to modify your goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+<script src="index.js"></script>
+
 </body>
 
 
