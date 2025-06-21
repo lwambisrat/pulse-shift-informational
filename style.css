@@ -373,7 +373,7 @@ footer {
 #top-images .images img {
     width: 60px;  
     height: auto;
-}
+}}
 @media (min-width: 1000px) and (max-width: 1280px) {
  #top-images .images {
     gap: 50px;
@@ -394,7 +394,7 @@ footer {
     margin-left: -1%;
   }
   .footer-logo img {
-    width: 100px;
+    width: 90px;
   }
   .newsletter-form {
     margin-left: 7%;
