@@ -20,3 +20,9 @@ dots.forEach((dot, idx) => {
 
 
 scrollToPage(0, false);
+
+
+
+
+
+
