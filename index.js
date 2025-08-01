@@ -22,14 +22,9 @@ dots.forEach((dot, idx) => {
 scrollToPage(0, false);
 
 
-
-
-
-
-// FAQ toggle functionality
 document.querySelectorAll('.faq-question').forEach(question => {
   question.addEventListener('click', () => {
-    const item = question.parentElement; // .sub-faq
+    const item = question.parentElement; 
     item.classList.toggle('active');
 
     const arrow = question.querySelector('.arrow');
@@ -37,7 +32,6 @@ document.querySelectorAll('.faq-question').forEach(question => {
   });
 });
 
-// Search functionality (enable only if search bar is uncommented in HTML)
 const searchInput = document.querySelector('.search-bar input');
 if (searchInput) {
   const faqItems = document.querySelectorAll('.sub-faq');
