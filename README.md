@@ -23,7 +23,6 @@ This document explains the core features of the platform, how customers and vend
 - **Inventory Management:** Add, update, and track products and stock levels in real time.
 - **Order Management:** Receive, process, and fulfill orders from customers—individually or in bulk.
 - **Payouts:** Receive M-Pesa payouts for completed orders.
-- **Training & Resources:** Access training sessions and educational materials to boost business and food safety.
 - **Profile & Location:** Manage shop profile, update location, and interact with customer feedback.
 
 ---
@@ -70,7 +69,6 @@ Full technical and user documentation is available in the [`All-docs/`](All-docs
 
 This project complies with:
 
-- Kenya Data Protection Act (DPA) 2019
 - Food Safety and Public Health Laws
 - Central Bank of Kenya (CBK) regulations
 - Consumer Protection Act 2012

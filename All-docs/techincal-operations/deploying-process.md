@@ -45,7 +45,7 @@ npm install
 ```bash
 cd backend
 python manage.py migrate
-python manage.py createsuperuser  # Follow prompts to create an admin user
+python manage.py createsuperuser  
 ```
 
 ---
