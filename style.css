@@ -3,7 +3,10 @@
     src: url(fonts/static/Nunito-Bold.ttf);
 }
 
-
+@font-face {
+  font-family: nunito-reg;
+  src: url(fonts/static/Nunito-Medium.ttf);
+}
 
 html, body {
 
@@ -13,21 +16,7 @@ html, body {
   font-family: nunito-reg, sans-serif;
   background: #fff;
   color: #222;
-
- 
 }
-
-@font-face {
-  font-family: nunito;
-  src: url(fonts/static/Nunito-Bold.ttf);
-}
-
-@font-face {
-  font-family: nunito-reg;
-  src: url(fonts/static/Nunito-Medium.ttf);
-}
-
-
 
 body {
   margin: 0 auto;
@@ -39,7 +28,6 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
 
 header {
   display: flex;
@@ -772,14 +760,11 @@ nav a:hover {
 
 }
 
-
 @media (max-width: 768px) {
   .hamburger {
     display: block;
     margin-right: 8px;
     padding: 5px;
-
-
   }
 
   nav {
